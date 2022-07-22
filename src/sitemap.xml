@@ -7,6 +7,30 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
+		<loc>https://en.crazyvegas.com/online-craps/craps-rules</loc>
+		<lastmod>2022-02-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://en.crazyvegas.com/online-craps/how-to-play-craps</loc>
+		<lastmod>2022-02-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://en.crazyvegas.com/online-craps/craps-glossary</loc>
+		<lastmod>2022-02-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://en.crazyvegas.com/online-craps/craps-tips</loc>
+		<lastmod>2022-05-04</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
 		<loc>https://en.crazyvegas.com/sitemap</loc>
 		<lastmod>2022-02-01</lastmod>
 		<changefreq>daily</changefreq>
@@ -30,7 +54,6 @@
 		<changefreq>daily</changefreq>
 		<priority>0.9</priority>
 	</url>
-
 	<url>
 		<loc>https://en.crazyvegas.com/online-blackjack</loc>
 		<lastmod>2022-02-01</lastmod>
@@ -775,12 +798,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
-	<url>
-		<loc>https://en.crazyvegas.com/online-craps/craps-rules</loc>
-		<lastmod>2022-02-01</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.6</priority>
-	</url>
+
 	<url>
 		<loc>https://en.crazyvegas.com/online-slots/5-reel-slots</loc>
 		<lastmod>2022-02-01</lastmod>
@@ -793,18 +811,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
-	<url>
-		<loc>https://en.crazyvegas.com/online-craps/craps-glossary</loc>
-		<lastmod>2022-02-01</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://en.crazyvegas.com/online-craps/how-to-play-craps</loc>
-		<lastmod>2022-02-01</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.6</priority>
-	</url>
+	
 	<url>
 		<loc>https://en.crazyvegas.com/rival-casinos</loc>
 		<lastmod>2022-02-01</lastmod>
@@ -1294,12 +1301,6 @@
 	</url>
 	<url>
 		<loc>https://en.crazyvegas.com/online-baccarat/baccarat-tips</loc>
-		<lastmod>2022-05-04</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>https://en.crazyvegas.com/online-craps/craps-tips</loc>
 		<lastmod>2022-05-04</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.9</priority>

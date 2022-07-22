@@ -446,6 +446,14 @@ const routes: Routes = [
     { path: 'baccarat-tips', component: BaccaratTipsComponent}
    ],},
 
+   { path: 'online-craps', children:[
+    { path: '', component: OnlineCrapsComponent,},
+    { path: 'craps-glossary', component: GlossaryComponent,},
+    { path: 'craps-rules', component: CRulesComponent,},
+    { path: 'craps-tips', component: CTipsComponent,},
+    { path: 'how-to-play-craps', component: CPlayComponent,},
+   ], },
+
 
    { path: 'online-blackjack', children:[
      { path: '', component: OnlineBlackjackComponent,},
@@ -456,15 +464,6 @@ const routes: Routes = [
      { path: 'how-to-play-blackjack', component: HowToPlayBlackjackComponent,},
      { path: 'win-at-blackjack', component: WinAtBlackjackComponent,},
      { path: 'blackjack-tips', component: OnlineBlackjackTipsComponent,},
-   ], },
-
-
-   { path: 'online-craps', children:[
-     { path: '', component: OnlineCrapsComponent,},
-     { path: 'craps-glossary', component: GlossaryComponent,},
-     { path: 'craps-rules', component: CRulesComponent,},
-     { path: 'craps-tips', component: CTipsComponent,},
-     { path: 'how-to-play-craps', component: CPlayComponent,},
    ], },
 
   { path: 'responsible-gaming', component: ResponsibleGamingComponent,},
