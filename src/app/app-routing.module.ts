@@ -374,9 +374,8 @@ const routes: Routes = [
   { path: 'brango-casino-review', component: BrangoCasinoReviewComponent,},
   { path: 'yabby-casino-review', component: YabbyCasinoReviewComponent,},
 
-  // pages with child pages microgaming
-
   // check the meta tags on the below URL
+  
   { path: 'microgaming', children: [
     {path: '', component: MicrogamingComponent,},
     {path: 'adventure-palace', component: AdventurePalaceComponent,},
