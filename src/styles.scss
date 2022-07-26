@@ -115,7 +115,7 @@ p.geo-bonus-9 {
 }
 
 .main-review p {
-    border-left: 2px solid rgb(13 110 253 / 25%);
+    border-left: 2px solid #368a97;
     padding: 0px 0px 0px 9px;
 
    
@@ -395,7 +395,7 @@ span.btn-play.btn-play--green {
     font: 700 15px Arial,Verdana,sans-serif;
     border-radius: 4px;
     padding: 10px 0;
-    text-shadow: 0 1px 0 rgb(5 6 6 / 20%);
+    text-shadow: 0 1px 0 #060506;
     text-transform: uppercase;
     text-align: center;
     width: 82%;
@@ -814,10 +814,10 @@ ul.navbar-nav.mx-auto li {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(0 0 0);
+    color: #000000;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.55);
+    color: #000000;
     font-weight: bold;
 }
 .p-4 {
@@ -1182,7 +1182,7 @@ footer.footer {
         max-width: 100%;
     }
     div.geo-one-table:first-child .geo-col-sm-5th-first > div {
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), inset 0 0 0 1px #00296b;
+        box-shadow: 0 1px 2px 0 #0000, inset 0 0 0 1px #00296b;
         color: #b22134;
     }
     div.geo-one-table:first-child {
@@ -1231,7 +1231,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
     }
     .geo-row > div.geo-col-3 > div,
     .geo-row > div.geo-col-4 > div {
-        border-right: 0px solid rgba(23, 50, 77, 0.2);
+        border-right: 0px solid #17324d;;
     }
     div.geo-one-table {
         padding: 0px 0px 0px 0px;
@@ -1480,8 +1480,8 @@ div.geo-one-table:first-child .geo-button-play:visited {
         @media all {
             div.geo-one-table {
                 background: #17324d;
-                border: 1px solid rgba(28, 111, 184, 0.3);
-                border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                border: 1px solid #1c6fb8;
+                border-bottom: 1px solid #1c6fb8;
                 opacity: 1;
                 -webkit-transition: 0.35s;
                 transition: 0.35s;
@@ -1543,7 +1543,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
                 padding: 0 1px 0 0;
             }
             .geo-one-tab {
-                border: 1px solid rgba(28, 111, 184, 0.3);
+                border: 1px solid #1c6fb8;
                 display: none;
             }
             .geo-one-tab.geo-active {
@@ -1560,10 +1560,10 @@ div.geo-one-table:first-child .geo-button-play:visited {
                 padding: 10px;
             }
             .geo-one-table:first-child {
-                border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                border-bottom: 1px solid #1c6fb8;
             }
             .geo-one-table:first-child .geo-regular {
-                border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                border-bottom: 1px solid #1c6fb8;
             }
             .geo-button-play,
             .geo-button-play:link,
@@ -1711,12 +1711,12 @@ div.geo-one-table:first-child .geo-button-play:visited {
             .geo-col-2,
             .geo-col-3,
             .geo-col-4 {
-                border-right: 1px solid rgba(255, 255, 255, 0.25);
+                border-right: 1px solid #ffffff;;
             }
             div.geo-one-table:first-child .geo-col-2,
             div.geo-one-table:first-child .geo-col-3,
             div.geo-one-table:first-child .geo-col-4 {
-                border-right: 1px solid rgba(23, 50, 77, 0.2);
+                border-right: 1px solid #17324d;
             }
             .geo-bonus-1,
             .geo-bonus-2,
@@ -1742,7 +1742,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
                     border-bottom: 0;
                 }
                 .geo-one-table:first-child .geo-regular {
-                    border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                    border-bottom: 1px solid #1c6fb8;
                 }
             }
             @media all and (max-width: 589px) {
@@ -1757,10 +1757,10 @@ div.geo-one-table:first-child .geo-button-play:visited {
             }
             @media all and (max-width: 504px) {
                 .geo-one-table {
-                    border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                    border-bottom: 1px solid #1c6fb8;
                 }
                 .geo-one-table:first-child .geo-regular {
-                    border-bottom: 1px solid rgba(28, 111, 184, 0.3);
+                    border-bottom: 1px solid #1c6fb8;
                 }
                 div.geo-one-table .geo-col-2,
                 div.geo-one-table .geo-col-3,
@@ -1811,7 +1811,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
                     font-size: 14px;
                 }
                 .geo-one-table {
-                    border-bottom: 10px solid rgba(28, 111, 184, 0.3);
+                    border-bottom: 10px solid #1c6fb8;
                 }
                 .geo-one-tab {
                     border: 0;
@@ -1907,7 +1907,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
             div.geo-one-table:first-child .geo-col-sm-5th-first > div {
                 /*                                             background: url(https://www.casinous.com/wp-content/uploads/2020/08/first-icon.png) 50% no-repeat; */
                 background-size: contain;
-                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), inset 0 0 0 1px #fcc115;
+                box-shadow: 0 1px 2px 0 #0000, inset 0 0 0 1px #fcc115;
                 color: #fff;
                 font-weight: 700;
                 font-size: 36px;
@@ -2170,7 +2170,7 @@ div.geo-one-table:first-child .geo-button-play:visited {
 	div.geo-one-table:first-child .geo-col-sm-5th-first > div {
     /* background: url(https://www.casinous.com/wp-content/uploads/2020/08/first-icon.png) 50% no-repeat; */
     background-size: contain;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%), inset 0 0 0 1px #8b1111;
+    box-shadow: 0 1px 2px 0 #0000, inset 0 0 0 1px #8b1111;
     color: #40577b;
     font-weight: 700;
     font-size: 36px;
@@ -2540,11 +2540,11 @@ hr {
     }
     a .card:hover {
         border: 1px solid #a8c1c9;
-        -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
-        -ms-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
-        -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
-        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: inset 0 1px 2px #000000;
+        -moz-box-shadow: inset 0 1px 2px #000000;
+        -ms-box-shadow: inset 0 1px 2px #000000;
+        -o-box-shadow: inset 0 1px 2px #000000;
+        box-shadow: inset 0 1px 2px #000000;
     }
     .grid-icon-row {
         display: -webkit-box;
@@ -2796,7 +2796,7 @@ details {
 	
 	#footer-bottom {
     background-color: #fff;
-    background-color: rgb(251 248 248);
+    background-color: #fff;
     color: #9fa2a5;
     margin-top: 17px;
     border-bottom: 3px solid #e7c8ca;
