@@ -4,6 +4,7 @@ import { LazyLoadImageModule} from 'ng-lazyload-image';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgAisModule } from 'angular-instantsearch';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -542,6 +543,7 @@ import { CPlayComponent } from './pages/c-play/c-play.component';
     NgAisModule.forRoot(),
     HttpClientModule,
     AppRoutingModule,
+    NgxScrollTopModule,
     
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

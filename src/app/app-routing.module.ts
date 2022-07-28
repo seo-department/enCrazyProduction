@@ -482,6 +482,7 @@ const routes: Routes = [
   { path: 'pai-gow-poker', component: PaiGowPokerComponent,},
   { path: 'rival-casinos', component: RivalCasinosComponent,},
 
+  
   { path: 'pragmatic-play-casinos', component: PragmaticPlayCasinosComponent,},
   { path: 'quickspin-casinos', component: QuickspinCasinosComponent,},
   { path: 'best-payout-slots', component: BestPayoutSlotsComponent,},
@@ -566,7 +567,8 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabled'
+    initialNavigation: 'enabled', 
+    scrollPositionRestoration: 'enabled'
 })],
   exports: [RouterModule]
 })
