@@ -668,6 +668,11 @@ input.ais-SearchBox-input {
     and (min-device-width : 320px) 
     and (max-device-width : 568px) {
     
+    .geo-col-sm-5th-first div {
+            color: #b22134;
+            font-size: 24px!important;
+    }
+    
     .APP {
         width: 100%;}
     div#content {
