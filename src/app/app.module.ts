@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { NgAisModule } from 'angular-instantsearch';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainTableComponent } from './shortcode/main-table/main-table.component';
