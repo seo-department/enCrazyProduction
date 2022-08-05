@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-royal-ace-casino-review',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RoyalAceCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Royal Ace Casino Review 2022 - Is Royal Ace a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Royal Ace Casino review. Sign up to claim your 385% welcome bonus from Royal Ace Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Royal Ace Casino Review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
+
   }
 
 }

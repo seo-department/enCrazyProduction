@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-quickspin-casinos',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuickspinCasinosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best Quickspin Casinos - Claim the Best Quickspin Bonuses');
+    this.metaService.addTags([
+      {name: 'description', content: 'Quickspin Casinos 2022. Get the best casino games online and exciting bonuses at top Quickspin Casinos. Click to find out more about Quickspin.'},
+      { name: 'keywords', content: 'Quickspin Casinos' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

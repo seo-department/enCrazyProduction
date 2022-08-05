@@ -49,6 +49,7 @@ export class HomeComponent implements OnInit {
       {name: 'description', content: 'Looking for the best online casinos USA? Crazy Vegas Casino finds honest United States gambling sites accepting US players to play online games for real money.'},
       { name: 'keywords', content: 'Online Casinos' },
       { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
 
     ]);
     

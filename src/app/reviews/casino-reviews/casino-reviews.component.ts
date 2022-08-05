@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-casino-reviews',
@@ -17,9 +18,16 @@ export class CasinoReviewsComponent implements OnInit {
   nyx ="https://imgix.cosmicjs.com/701f6a20-cffb-11eb-bfae-075125d92be0-nyx.png";
   betsoft ="https://imgix.cosmicjs.com/57f447e0-cffb-11eb-bfae-075125d92be0-betsoft.png";
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best Online Casino Reviews USA – Honest US Casino Reviews');
+    this.metaService.addTags([
+      {name: 'description', content: 'Best US Casino reviews. Find honest online casino reviews from trusted casino sites in America. We compare top USA casinos online, bonuses & more!'},
+      { name: 'keywords', content: 'Casino reviews' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

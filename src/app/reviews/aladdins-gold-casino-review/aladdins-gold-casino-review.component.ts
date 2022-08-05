@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-aladdins-gold-casino-review',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AladdinsGoldCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+
+  this.metaTitle.setTitle("Aladdins Gold Casino Review 2022 - Is Aladdin's Gold a Safe Casino?");
+  this.metaService.addTags([
+    {name: 'description', content: "Honest Aladdin's Gold Casino review. Sign up to claim your $2,000 welcome bonus from Aladdin's Gold Casino. Read our trusted casino review here."},
+    { name: 'keywords', content: 'Aladdin’s Gold Casino review' },
+    { name: 'robots', content: 'Index,follow' },
+    { charset: 'UTF-8' },
+
+  ]);
+
+
   }
 
 }

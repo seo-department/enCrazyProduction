@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-microgaming',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MicrogamingComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Top Microgaming Casinos 2022 - Play Microgaming Slots');
+    this.metaService.addTags([
+      {name: 'description', content: 'Microgaming is one of the first casino software providers. They host the biggest collection of slots & table games. Find out where to play Microgaming games with this Microgaming directory.'},
+      { name: 'keywords', content: 'Microgaming Casinos' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

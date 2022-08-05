@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-cabin-fever',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabinFeverComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Cabin Fever Slot Review - Jackpot, RTP & Game Info [Microgaming]');
+    this.metaService.addTags([
+      {name: 'description', content: 'Cabin Fever hosts a family of bears locked in a tiny cabin for winter. The slot features 5-reels, 20 paylines, scatters, wilds, multipliers, and more!'},
+      { name: 'keywords', content: 'Cabin Fever Slot Review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

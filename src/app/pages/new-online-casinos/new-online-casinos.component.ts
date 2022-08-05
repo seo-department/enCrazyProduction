@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-new-online-casinos',
@@ -26,9 +27,16 @@ export class NewOnlineCasinosComponent implements OnInit {
   betsoft ="https://imgix.cosmicjs.com/57f447e0-cffb-11eb-bfae-075125d92be0-betsoft.png";
 
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best New Online Casinos USA 2022 - Compare New Casino Sites');
+    this.metaService.addTags([
+      {name: 'description', content: 'Looking for the best new online casinos? Find reviews and bonus codes for new casinos online. See what the latest casino sites have to offer here.'},
+      { name: 'keywords', content: 'New Online Casinos' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

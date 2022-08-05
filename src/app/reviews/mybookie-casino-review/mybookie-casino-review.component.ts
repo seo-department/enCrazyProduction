@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-mybookie-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MybookieCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best MyBookie Casino Review 2022 – Is MyBookie a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Trusted MyBookie Casino review. Sign up to claim your $1,000 welcome bonus from MyBookie casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'MyBookie Casino Review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

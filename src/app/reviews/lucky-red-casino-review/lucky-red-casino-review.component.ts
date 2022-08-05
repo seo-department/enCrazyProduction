@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-lucky-red-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LuckyRedCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Lucky Red Casino Review 2022 - Is Lucky Red a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Lucky Red Casino review. Sign up to claim your $4,000 welcome bonus from Lucky Red Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Lucky Red Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-online-slots',
@@ -16,9 +17,16 @@ export class OnlineSlotsComponent implements OnInit {
   nyx ="https://imgix.cosmicjs.com/701f6a20-cffb-11eb-bfae-075125d92be0-nyx.png";
   betsoft ="https://imgix.cosmicjs.com/57f447e0-cffb-11eb-bfae-075125d92be0-betsoft.png";
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Online Slots Real Money – Best Online Slot Casinos for 2022');
+    this.metaService.addTags([
+      {name: 'description', content: 'Are you looking for the best online slots casinos? Read about top sites where to play real money slots online, welcome bonuses, jackpots & more right here!'},
+      { name: 'keywords', content: 'Online Slots Real Money' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }
