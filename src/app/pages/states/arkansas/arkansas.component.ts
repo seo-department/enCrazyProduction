@@ -11,10 +11,10 @@ export class ArkansasComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Online USA Casinos - US Online Gambling Sites 2022');
+    this.metaTitle.setTitle('Gambling in Arkansas – Is it Legal to Gamble in Arkansas?');
     this.metaService.addTags([
-      {name: 'description', content: 'Looking for the best online casinos USA? Crazy Vegas Casino finds honest United States gambling sites accepting US players to play online games for real money.'},
-      { name: 'keywords', content: 'Online Casinos' },
+      {name: 'description', content: 'Want to know more about gambling in the state of Arkansas? Find out everything you need to know about online gambling in Arkansas state, including the gambling laws.'},
+      { name: 'keywords', content: 'Gambling in Arkansas' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },
     ]);
