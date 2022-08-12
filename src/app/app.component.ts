@@ -8,6 +8,7 @@ import { map, filter, scan } from 'rxjs/operators';
 import { EMPTY } from 'rxjs';
 import { CanonicalService } from './core/canonical.service';
 
+
 let gtag: any;
 
 @Component({

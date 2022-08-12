@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-high-roller-casinos',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HighRollerCasinosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best High Roller Casinos 2022 - High Limit Casinos for Big Spenders');
+    this.metaService.addTags([
+      {name: 'description', content: 'High roller casinos offer exclusive VIP bonus rewards for big spenders. The best high roller casino sites offer high stake games for VIP players.'},
+      { name: 'keywords', content: 'High Roller Casinos' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

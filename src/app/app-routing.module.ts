@@ -447,7 +447,7 @@ const routes: Routes = [
 
    { path: 'online-craps', children:[
     { path: '', component: OnlineCrapsComponent,},
-    { path: 'craps-glossary', component: GlossaryComponent,},
+    { path: 'glossary', component: CrapsGlossaryComponent,},
     { path: 'craps-rules', component: CRulesComponent,},
     { path: 'craps-tips', component: CTipsComponent,},
     { path: 'how-to-play-craps', component: CPlayComponent,},

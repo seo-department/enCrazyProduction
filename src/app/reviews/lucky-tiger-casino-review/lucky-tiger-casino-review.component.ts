@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-lucky-tiger-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LuckyTigerCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Lucky Tiger Casino Review 2022 - Is Lucky Tiger a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Trusted Lucky Tiger Casino review. Sign up to claim your $1,000 welcome bonus from Lucky Tiger Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Slot Madness Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

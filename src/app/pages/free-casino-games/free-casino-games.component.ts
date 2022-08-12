@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-free-casino-games',
   templateUrl: './free-casino-games.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FreeCasinoGamesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
   
   real_time ="https://imgix.cosmicjs.com/76d47c70-cffb-11eb-bfae-075125d92be0-real-time-gaming.png";
   playtech ="https://imgix.cosmicjs.com/73824430-cffb-11eb-bfae-075125d92be0-playtech.png";
@@ -19,6 +19,13 @@ export class FreeCasinoGamesComponent implements OnInit {
   betsoft ="https://imgix.cosmicjs.com/57f447e0-cffb-11eb-bfae-075125d92be0-betsoft.png";
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best Free Casino Game - Play Free Casino Games No Download Required');
+    this.metaService.addTags([
+      {name: 'description', content: 'Free casino games are available in a wide variety. Players can enjoy free casino games such as roulette, blackjack, baccarat, craps, & video poker.'},
+      { name: 'keywords', content: 'Free casino games' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
     
   }
 

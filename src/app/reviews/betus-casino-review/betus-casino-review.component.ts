@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-betus-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BetusCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-  }
+    this.metaTitle.setTitle('BetUs Casino Review 2022 - Is BetUs a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest BetUs Casino review. Sign up to claim your $5,375 welcome bonus from BetUs Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'BetUS Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
 
+    ]);
+  }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-eclipse-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EclipseCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Eclipse Casino Review 2022 - Is Eclipse a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Eclipse Casino review. Sign up to claim up to $2,000 welcome bonus from Eclipse Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Eclipse Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-bodog-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodogCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Trusted Bodog Casino Review 2022 - Is Bodog Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Bodog Casino review. Sign up to claim your $600 welcome bonus from Bodog Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Bodog Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

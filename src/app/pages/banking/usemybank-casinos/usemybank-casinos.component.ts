@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-usemybank-casinos',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsemybankCasinosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best UseMyBank Casinos 2022 - Casinos Accepting UseMyBank');
+    this.metaService.addTags([
+      {name: 'description', content: 'UseMyBank Casino Guide. Find casinos accepting the UseMyBank deposit option and how to use it with this Crazy Vegas guide.'},
+      { name: 'keywords', content: 'UseMyBank Casino' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
+
   }
 
 }

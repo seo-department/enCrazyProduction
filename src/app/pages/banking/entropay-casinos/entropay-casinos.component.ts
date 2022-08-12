@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-entropay-casinos',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntropayCasinosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Best EntroPay Casinos 2022 - Casinos Accepting EntroPay Payments');
+    this.metaService.addTags([
+      {name: 'description', content: 'EntroPay casinos. List of casinos that accept EntroPay deposit method. EntroPay is a debit card allowing players to make safe real money casino deposits.'},
+      { name: 'keywords', content: 'EntroPay casinos' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

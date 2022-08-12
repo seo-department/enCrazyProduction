@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-brango-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrangoCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Brango Casino Review 2022 - Is Brango a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Brango Casino review. Sign up to claim your $2,000 welcome bonus from Brango Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Brango Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

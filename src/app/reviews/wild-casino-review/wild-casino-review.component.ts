@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-wild-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WildCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Wild Casino Review 2022 - Is Wild a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Wild Casino review. Sign up to claim your $5,000 welcome bonus from Wild Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Wild Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }

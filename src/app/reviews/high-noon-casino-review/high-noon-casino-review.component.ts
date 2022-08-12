@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-high-noon-casino-review',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HighNoonCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Highnoon Casino Review 2022 - Is Highnoon a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Highnoon Casino review. Sign up to claim your $2,500 welcome bonus from Highnoon Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Slot Madness Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
-
 }

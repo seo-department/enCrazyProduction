@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-captain-jack-casino-review',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CaptainJackCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Captain Jack Casino Review 2022 - Is Captain Jack a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Honest Captain Jack Casino review. Sign up to claim your $3000 welcome bonus from Captain Jack Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Captain Jack Casino Review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
+
   }
 
 }

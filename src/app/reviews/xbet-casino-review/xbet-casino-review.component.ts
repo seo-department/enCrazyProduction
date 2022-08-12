@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-xbet-casino-review',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class XbetCasinoReviewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
+    this.metaTitle.setTitle('Honest XBet Casino Review 2022 – Is XBet a Safe Casino?');
+    this.metaService.addTags([
+      {name: 'description', content: 'Trusted XBet Casino review. Sign up to claim your $1,000 welcome bonus from MyBookie casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'XBet Casino review' },
+      { name: 'robots', content: 'Index,follow' },
+      { charset: 'UTF-8' },
+    ]);
   }
 
 }
