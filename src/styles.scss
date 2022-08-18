@@ -667,6 +667,9 @@ input.ais-SearchBox-input {
     @media only screen 
     and (min-device-width : 320px) 
     and (max-device-width : 568px) {
+        .home-intro {
+            display: none;
+        }
     
     .geo-col-sm-5th-first div {
             color: #b22134;
