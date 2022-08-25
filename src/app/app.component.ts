@@ -187,9 +187,13 @@ export class AppComponent {
     if (location.pathname =='/online-blackjack/online-blackjack-tips/the-three-most-fatal-blackjack-strategies.asp'){
       window.location.href = "/online-blackjack/blackjack-tips";
     }
-    if (location.pathname =='/online-blackjack/online-blackjack-tips/the-three-most-fatal-blackjack-strategies.asp'){
-      window.location.href = "/online-blackjack/blackjack-tips";
+    if (location.pathname =='/fr/contact-us'){
+      window.location.href = "/contact-us";
     }
+
+
+  
+    
    
   }
   
