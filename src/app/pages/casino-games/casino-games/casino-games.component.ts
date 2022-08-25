@@ -13,7 +13,7 @@ export class CasinoGamesComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Best Online Casino Games - Play Top Casino Games with $1600');
     this.metaService.addTags([
-      {name: 'description', content: 'Top casino games. Play popular types of casino games like slots, blackjack, craps, roulette & more on the web for real money. Sign up & claim exclusive bonuses!'},
+      {name: 'description', content: 'Top casino games. Play popular types of casino games like slots, blackjack, craps, roulette & more. on the web for real money. Sign up & claim exclusive bonuses!'},
       { name: 'keywords', content: 'casino games' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

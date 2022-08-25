@@ -13,7 +13,7 @@ export class AdventurePalaceComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Adventure Palace Slot Review - Jackpot, RTP & Game Info [Microgaming]');
     this.metaService.addTags([
-      {name: 'description', content: 'Adventure Palace slot. Go on a journey through the jungle with this wild 5 reel slot game from Microgaming. There are bonus features with multiplier payouts!'},
+      {name: 'description', content: 'Adventure Palace slot. Go on a journey through the jungle with this wild 5 reel slot game from Microgaming.  There are several bonus features with multiplied payouts!'},
       { name: 'keywords', content: 'Adventure Palace Slot Review' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

@@ -12,6 +12,10 @@ p.extra {
     background-color: #a5404d !important;
     color: #fafafa;
 }
+div#sidebar li a:hover {
+    font-style: italic;
+    color: #5454e1 !important;
+}
 a.geo-button-play:hover {
     background: #368a97 !important;
     color: #fff !important;
@@ -667,6 +671,20 @@ input.ais-SearchBox-input {
     @media only screen 
     and (min-device-width : 320px) 
     and (max-device-width : 568px) {
+        .geo-row>.geo-col-6:not(.geo-clear)>div {
+            width: 69% !important;
+        }.geo-bottom-featured-picture {
+            max-height: 70px !important;
+            max-width: 97px !important;
+        }.geo-button-play, .geo-button-play:link, .geo-button-play:visited {
+            font-size: 16px !important;}
+        .geo-read-review:link, .geo-read-review:visited, div.geo-one-table .geo-read-review:link, div.geo-one-table .geo-read-review:visited, div.geo-one-table:first-child .geo-read-review:link, div.geo-one-table:first-child .geo-read-review:visited {
+            padding: 6px 0 0 !important;
+        }
+
+        .home-intro {
+            display: none;
+        }
     
     .geo-col-sm-5th-first div {
             color: #b22134;

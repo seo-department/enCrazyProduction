@@ -13,7 +13,7 @@ export class OnlineBlackjackTipsComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Blackjack Tips - 10 Tips to Incerase Your Blackjack Odds');
     this.metaService.addTags([
-      {name: 'description', content: 'Beginner Blackjack Tips. Our tips guide offers the best secrets to blackjack & how to increase your odds of winning. Other blackjack tips include when to hit.'},
+      {name: 'description', content: 'Beginner Blackjack Tips. Our guide offers players the best a secrets to blackjack on how to increase your odds of winning. Other blackjack tips include when to hit.'},
       { name: 'keywords', content: 'Blackjack Tips' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

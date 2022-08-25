@@ -13,7 +13,7 @@ export class JacksOrBetterVideoPokerComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Jacks or Better Video Poker - How to Play Jacks or Better & Win');
     this.metaService.addTags([
-      {name: 'description', content: 'Use this Jacks or Better trainer and test your skills on this simple and easy to learn video poker variation.'},
+      {name: 'description', content: 'Find easy-no download Jacks or Better casinos here. Use this Jacks or Better trainer and test your skills on this simple and easy to learn video poker variation.'},
       { name: 'keywords', content: 'Jacks or Better Video Poker' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

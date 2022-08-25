@@ -13,7 +13,7 @@ export class AgeOfDiscoveryComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Age of Discovery Slot Review - Jackpot, RTP & Game Info [Microgaming]');
     this.metaService.addTags([
-      {name: 'description', content: 'Age of Discovery slot. Set sail to riches with this 5-reel, 25 payline Microgaming slot. There are wilds, scatters & a 60,000-coin jackpot up for grabs.'},
+      {name: 'description', content: 'Age of Discovery slot. Set sail to riches with this 5-reel, 25 payline slot game from Microgaming. There are wilds, scatters, and a 60,000-coin jackpot waiting to be found.'},
       { name: 'keywords', content: 'Age of Discovery Slot Review' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

@@ -11,9 +11,9 @@ export class BaccaratTipsComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Baccarat Tips - 10 Tips to Incerase Your Baccarat Odds');
+    this.metaTitle.setTitle('Baccarat Tips - 10 Tips to Incerase Your Blackjack Odds');
     this.metaService.addTags([
-      {name: 'description', content: 'Top 10 Baccarat tips that increase your chances of winning. Our online baccarat tips, hacks & secrets give you everything you need to know to win real money.'},
+      {name: 'description', content: 'Top 10 Blackjack tips that increase your chances of winning. Our online blackjack hacks give you everything you need to know. Get all of the secrets to blackjack here.'},
       { name: 'keywords', content: 'Baccarat Tips' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

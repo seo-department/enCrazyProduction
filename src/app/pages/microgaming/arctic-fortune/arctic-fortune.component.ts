@@ -13,7 +13,7 @@ export class ArcticFortuneComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Arctic Fortune Slot Review - Jackpot, RTP & Game Info [Microgaming]');
     this.metaService.addTags([
-      {name: 'description', content: 'Arctic Fortune Microgaming slot review. Arctic Fortune is a 1024 ways slot with ample winning combinations. There are also wilds, free spins & bonus rounds.'},
+      {name: 'description', content: 'Arctic Fortune slot review. Arctic Fortune is a 1024 ways slot from Microgaming with ample winning combinations. There are also wilds, free spins & a bonus round.'},
       { name: 'keywords', content: 'Arctic Fortune slot review' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },
