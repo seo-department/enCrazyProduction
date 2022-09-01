@@ -7,7 +7,9 @@ import * as $ from "jquery";
   styleUrls: ['./main-table.component.scss']
 })
 export class MainTableComponent implements OnInit {
-
+  half_star="https://imgix.cosmicjs.com/15dc5220-2901-11ed-9188-3bacb03681de-score-half-star-icon-0.png";
+  full_star="https://imgix.cosmicjs.com/15db19a0-2901-11ed-9188-3bacb03681de-score-full-star-icon.png";
+  tick="https://imgix.cosmicjs.com/15dbdcf0-2901-11ed-9188-3bacb03681de-Vsign-icon.png";
   bovegas_casino ="https://imgix.cosmicjs.com/794903a0-20f4-11ec-a8e0-f76ec38a4b1a-bovegas-casino.png";
   slots_of_vegas_casino ="https://imgix.cosmicjs.com/79154970-20f4-11ec-a8e0-f76ec38a4b1a-slots-of-vegas-casino.png";
   las_atlantis_casino_usa="https://imgix.cosmicjs.com/09813750-9fab-11ec-a634-2f1716dd45af-las-atlantis-casino-usa.png";
