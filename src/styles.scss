@@ -3,11 +3,20 @@
     line-height: 20px;
     color: #737373;
 }
-
+.review-class {
+    background: #fbfbfb;
+    border: 1px solid #e7e1e1;
+    padding: 9px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
 ._3RJn-Sd8 {
     margin-top: -8px !important;
 }
-
+.review-class h2 {
+    padding-bottom: 7px;
+}
 
 ._3v4eSKw- {
     margin-right: auto;
@@ -853,12 +862,12 @@ p.geo-bonus-9 {
     border-top: 1px solid #e3e3e3;
 }
 
-.main-review p {
-    border-left: 2px solid #368a97;
-    padding: 0px 0px 0px 9px;
+// .main-review p {
+//     border-left: 2px solid #368a97;
+//     padding: 0px 0px 0px 9px;
 
    
-}
+// }
 
 .main-review h2 {
     border-bottom: 1px dotted #e3e3e3;
