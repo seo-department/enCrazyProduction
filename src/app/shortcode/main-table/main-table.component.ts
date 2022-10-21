@@ -95,6 +95,7 @@ export class MainTableComponent implements OnInit {
   bodog="https://imgix.cosmicjs.com/79df9e50-20f4-11ec-a8e0-f76ec38a4b1a-bodog-casino.png";
   bovada="https://imgix.cosmicjs.com/79e19a20-20f4-11ec-a8e0-f76ec38a4b1a-bovada-casino-us.png";
   spinfinity="https://imgix.cosmicjs.com/79484050-20f4-11ec-a8e0-f76ec38a4b1a-spinfinity-logo.png";
+  jackspay="https://imgix.cosmicjs.com/79da4720-20f4-11ec-a8e0-f76ec38a4b1a-jackspay-casino.png";
   Myb="https://imgix.cosmicjs.com/79e36ee0-20f4-11ec-a8e0-f76ec38a4b1a-MYB-casino-usa.jpg";
   captain="https://imgix.cosmicjs.com/79aaaba0-20f4-11ec-a8e0-f76ec38a4b1a-captain-jack-casino.png";
   palace_of_chance="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
