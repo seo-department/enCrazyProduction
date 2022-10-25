@@ -14,3 +14,16 @@ quote_type = single
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
+routes.RouteExistingFiles = true;
+
+        routes.MapRoute(name: "Redirects",
+            url: "HtmlPage.html",
+            defaults: new { controller = "Home", action = "Html", page = UrlParameter.Optional }
+        );
+
+        routes.MapRoute(
+            name: "Default",
+            url: "{controller}/{action}/{id}",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+        );
