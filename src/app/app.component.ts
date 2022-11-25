@@ -175,9 +175,15 @@ export class AppComponent {
     if (location.pathname =='/support.asp'){
       window.location.href = "/contact-us";
     }
+
     if (location.pathname =='/online-roulette/win-at-roulette.aspx'){
       window.location.href = "/online-roulette/how-to-play-roulette";
     }
+
+    if (location.pathname =='/online-roulette/win-at-roulette'){
+      window.location.href = "/online-roulette/how-to-play-roulette";
+    }
+
     if (location.pathname =='/online-roulette/index.asp'){
       window.location.href = "/online-roulette";
     }
