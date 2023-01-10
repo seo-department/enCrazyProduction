@@ -11,7 +11,7 @@ export class IrishLuckCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Irish Luck Casino Review 2022 - Is Irish Luck a Safe Casino?');
+    this.metaTitle.setTitle('Irish Luck Casino Review 2023 - Is Irish Luck a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Irish Luck Casino review. Sign up to claim your 300% welcome bonus from Irish Luck casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Irish Luck Casino review' },

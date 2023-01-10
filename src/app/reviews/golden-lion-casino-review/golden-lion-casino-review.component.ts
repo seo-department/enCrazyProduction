@@ -11,7 +11,7 @@ export class GoldenLionCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Golden Lion Casino Review 2022 - Is Golden Lionn a Safe Casino?');
+    this.metaTitle.setTitle('Golden Lion Casino Review 2023 - Is Golden Lionn a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Golden Lion Casino review. Sign up to claim your $3,500 welcome bonus from Golden Lion Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Golden Lion Casino review' },

@@ -11,7 +11,7 @@ export class BetOnlineCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('BetOnline Casino Review 2022 - Is BetOnline Casino Safe?');
+    this.metaTitle.setTitle('BetOnline Casino Review 2023 - Is BetOnline Casino Safe?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest BetOnline Casino review. Sign up to claim your $3,000 welcome bonus from BetOnline Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'BetOnline Casino review' },

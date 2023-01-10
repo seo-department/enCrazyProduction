@@ -11,7 +11,7 @@ export class CasinoMaxReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Casino Max Casino Review 2022 - Is Casino Max a Safe Casino?');
+    this.metaTitle.setTitle('Casino Max Casino Review 2023 - Is Casino Max a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Casino Max Casino review. Sign up to claim your $9,000 welcome bonus from Casino Max. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Slot Madness Casino review' },
