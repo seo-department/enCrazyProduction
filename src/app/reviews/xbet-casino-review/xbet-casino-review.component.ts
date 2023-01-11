@@ -11,7 +11,7 @@ export class XbetCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Honest XBet Casino Review 2022 – Is XBet a Safe Casino?');
+    this.metaTitle.setTitle('Honest XBet Casino Review 2023 – Is XBet a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted XBet Casino review. Sign up to claim your $1,000 welcome bonus from MyBookie casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'XBet Casino review' },

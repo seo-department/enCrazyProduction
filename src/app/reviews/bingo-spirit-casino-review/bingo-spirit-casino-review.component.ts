@@ -11,7 +11,7 @@ export class BingoSpiritCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('BingoSpirit Casino Review 2022 - Is BingoSpirit a Safe Casino?');
+    this.metaTitle.setTitle('BingoSpirit Casino Review 2023 - Is BingoSpirit a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted BingoSpirit Casino review. Sign up to claim your No deposit $10 + 30 free spins welcome bonus from BingoSpirit Casino.'},
       { name: 'keywords', content: 'BingoSpirit Casino Review' },

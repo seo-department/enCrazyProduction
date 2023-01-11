@@ -11,7 +11,7 @@ export class CyberBingoCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('CyberBingo Casino Review 2022 - Is CyberBingo a Safe Casino?');
+    this.metaTitle.setTitle('CyberBingo Casino Review 2023 - Is CyberBingo a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest CyberBingo Casino review. Sign up to claim your 40 Free Spins + $20 NDB welcome bonus from CyberBingo Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'CyberBingo Casino Review' },

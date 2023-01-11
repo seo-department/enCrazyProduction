@@ -11,7 +11,7 @@ export class SilverOakCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Silver Oak Casino Review 2022 - Is Silver Oak a Safe Casino?');
+    this.metaTitle.setTitle('Silver Oak Casino Review 2023 - Is Silver Oak a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Silver Oak Casino review. Sign up to claim your 320% welcome bonus from Silver Oak Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Silver Oak Casino review' },

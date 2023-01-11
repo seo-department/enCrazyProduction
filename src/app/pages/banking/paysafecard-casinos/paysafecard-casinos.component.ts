@@ -11,7 +11,7 @@ export class PaysafecardCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best PaySafeCard Casinos 2022 - Casinos Accepting PaySafeCards');
+    this.metaTitle.setTitle('Best PaySafeCard Casinos 2023 - Casinos Accepting PaySafeCards');
     this.metaService.addTags([
       {name: 'description', content: 'Paysafe casinos. PaySafe is a prepaid card available from 500 000+ stores & accepted for deposits at casinos. Find PaySafeCard Casinos here at Crazy Vegas.'},
       { name: 'keywords', content: 'PaySafeCard Casinos' },

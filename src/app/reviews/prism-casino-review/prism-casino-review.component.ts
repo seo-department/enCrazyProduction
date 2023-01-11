@@ -12,7 +12,7 @@ export class PrismCasinoReviewComponent implements OnInit {
 
   ngOnInit(): void {
     
-  this.metaTitle.setTitle('Prism Casino Review 2022 - Is Prism a Safe Casino?');
+  this.metaTitle.setTitle('Prism Casino Review 2023 - Is Prism a Safe Casino?');
   this.metaService.addTags([
     {name: 'description', content: 'Honest Prism Casino review. Sign up to claim your 350% welcome bonus from Prism Casino. Read our trusted casino review here.'},
     { name: 'keywords', content: 'Prism Casino review' },

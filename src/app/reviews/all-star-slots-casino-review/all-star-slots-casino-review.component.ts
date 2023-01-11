@@ -12,7 +12,7 @@ export class AllStarSlotsCasinoReviewComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.metaTitle.setTitle('All Star Slots Casino Review 2022 - Is All Star Slots a Safe Casino?');
+    this.metaTitle.setTitle('All Star Slots Casino Review 2023 - Is All Star Slots a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest All Star Slots Casino review. Sign up to claim your $2,000 welcome bonus from All Star Slots Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'All Star Slots Casino review' },

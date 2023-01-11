@@ -11,7 +11,7 @@ export class OnlineRouletteComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Online Roulette Sites 2022 - Compare USA Roulette Casinos');
+    this.metaTitle.setTitle('Best Online Roulette Sites 2023 - Compare USA Roulette Casinos');
     this.metaService.addTags([
       {name: 'description', content: 'Looking for top online roulette casinos? Use our guide to play real money roulette games from high-recommended casinos & increase your chances.'},
       { name: 'keywords', content: 'Online Roulette' },

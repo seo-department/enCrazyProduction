@@ -11,7 +11,7 @@ export class StatesComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('The State of Online Gambling in the USA 2022');
+    this.metaTitle.setTitle('The State of Online Gambling in the USA 2023');
     this.metaService.addTags([
       {name: 'description', content: 'Trying to uncover casino laws for your state? Use our state-by-state guide to help you find out everything there is to know about legal gambling in the USA.'},
       { name: 'keywords', content: 'State of Online Gambling' },

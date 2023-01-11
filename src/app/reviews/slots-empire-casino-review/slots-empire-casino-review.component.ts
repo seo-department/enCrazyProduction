@@ -11,7 +11,7 @@ export class SlotsEmpireCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Slots Empire Casino Review 2022 - Is Slots Empire a Safe Casino?');
+    this.metaTitle.setTitle('Slots Empire Casino Review 2023 - Is Slots Empire a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Slots Empire Casino review. Sign up to claim your 220% welcome bonus from Slots Empire Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Slots Empire Casino review' },

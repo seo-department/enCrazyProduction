@@ -11,7 +11,7 @@ export class CaptainJackCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Captain Jack Casino Review 2022 - Is Captain Jack a Safe Casino?');
+    this.metaTitle.setTitle('Captain Jack Casino Review 2023 - Is Captain Jack a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Captain Jack Casino review. Sign up to claim your $3000 welcome bonus from Captain Jack Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Captain Jack Casino Review' },
