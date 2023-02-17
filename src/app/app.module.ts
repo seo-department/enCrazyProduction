@@ -269,6 +269,10 @@ import { PageAndReviewTemplateComponent } from './page-and-review-template/page-
 import { CRulesComponent } from './pages/c-rules/c-rules.component';
 import { CTipsComponent } from './pages/c-tips/c-tips.component';
 import { CPlayComponent } from './pages/c-play/c-play.component';
+import { GrandeVegasCasinoReviewComponent } from './reviews/grande-vegas-casino-review/grande-vegas-casino-review.component';
+import { JackpotCapitalCasinoReviewComponent } from './reviews/jackpot-capital-casino-review/jackpot-capital-casino-review.component';
+import { SlotasticCasinoReviewComponent } from './reviews/slotastic-casino-review/slotastic-casino-review.component';
+import { SlotsRoomCasinoReviewComponent } from './reviews/slots-room-casino-review/slots-room-casino-review.component';
 
 
 
@@ -534,6 +538,10 @@ import { CPlayComponent } from './pages/c-play/c-play.component';
      CRulesComponent,
      CTipsComponent,
      CPlayComponent,
+     GrandeVegasCasinoReviewComponent,
+     JackpotCapitalCasinoReviewComponent,
+     SlotasticCasinoReviewComponent,
+     SlotsRoomCasinoReviewComponent,
 
   ],
   imports: [
