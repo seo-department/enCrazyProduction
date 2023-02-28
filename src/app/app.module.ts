@@ -274,6 +274,7 @@ import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capit
 import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
 import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -539,8 +540,9 @@ import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
      JackpotCapitalComponent,
      SlotasticCasinoComponent,
      SlotsRoomComponent,
+
   ],
-  
+
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule,
