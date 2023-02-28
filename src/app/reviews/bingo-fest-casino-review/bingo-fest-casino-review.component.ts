@@ -11,7 +11,7 @@ export class BingoFestCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('BingoFest Casino Review 2022 - Is BingoFest a Safe Casino?');
+    this.metaTitle.setTitle('BingoFest Casino Review 2023 - Is BingoFest a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest BingoFest Casino review. Sign up to claim your 50 Free Spins + $20 NDB welcome bonus from BingoFest Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'BingoFest Casino Review' },

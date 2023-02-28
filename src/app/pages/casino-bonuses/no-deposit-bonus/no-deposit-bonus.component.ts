@@ -11,7 +11,7 @@ export class NoDepositBonusComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best No Deposit Bonus Codes  2022 - Latest Casino NDB Codes');
+    this.metaTitle.setTitle('Best No Deposit Bonus Codes  2023 - Latest Casino NDB Codes');
     this.metaService.addTags([
       {name: 'description', content: 'Looking for the best no deposit bonus codes? No deposit bonuses are usually free credits or free spins awarded to you without the need of making a deposit.'},
       { name: 'keywords', content: 'No Deposit Bonus' },

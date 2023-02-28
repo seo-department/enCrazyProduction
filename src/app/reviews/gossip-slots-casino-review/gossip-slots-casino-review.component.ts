@@ -11,7 +11,7 @@ export class GossipSlotsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Gossip Slots Casino Review 2022 - Is Gossip Slots a Safe Casino?');
+    this.metaTitle.setTitle('Gossip Slots Casino Review 2023 - Is Gossip Slots a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Gossip Slots Casino review. Sign up to claim your $8,000 welcome bonus from Gossip Slots Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Gossip Slots Casino' },

@@ -1,6 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule, Meta, Title } from '@angular/platform-browser';
-import { LazyLoadImageModule} from 'ng-lazyload-image';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgAisModule } from 'angular-instantsearch';
@@ -269,9 +269,10 @@ import { PageAndReviewTemplateComponent } from './page-and-review-template/page-
 import { CRulesComponent } from './pages/c-rules/c-rules.component';
 import { CTipsComponent } from './pages/c-tips/c-tips.component';
 import { CPlayComponent } from './pages/c-play/c-play.component';
-
-
-
+import { GrandeVegasComponent } from './reviews/grande-vegas/grande-vegas.component';
+import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capital.component';
+import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
+import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
 
 @NgModule({
   declarations: [
@@ -534,17 +535,21 @@ import { CPlayComponent } from './pages/c-play/c-play.component';
      CRulesComponent,
      CTipsComponent,
      CPlayComponent,
-
+     GrandeVegasComponent,
+     JackpotCapitalComponent,
+     SlotasticCasinoComponent,
+     SlotsRoomComponent,
   ],
+  
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    LazyLoadImageModule,
     RouterModule,
     FormsModule,
     NgAisModule.forRoot(),
     HttpClientModule,
     AppRoutingModule,
     NgxScrollTopModule,
+    LazyLoadImageModule
     
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

@@ -11,7 +11,7 @@ export class RubySlotsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Ruby Slots Review 2022 - Is Sun Palace Ruby Slots a Safe Casino?');
+    this.metaTitle.setTitle('Ruby Slots Review 2023 - Is Sun Palace Ruby Slots a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Ruby Slots Casino review. Sign up to claim your 25 Free Spins welcome bonus from Ruby Slots Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Ruby Slots Review' },

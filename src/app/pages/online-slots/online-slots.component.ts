@@ -20,7 +20,7 @@ export class OnlineSlotsComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Online Slots Real Money – Best Online Slot Casinos for 2022');
+    this.metaTitle.setTitle('Online Slots Real Money – Best Online Slot Casinos for 2023');
     this.metaService.addTags([
       {name: 'description', content: 'Are you looking for the best online slots casinos? Read about top sites where to play real money slots online, welcome bonuses, jackpots & more right here!'},
       { name: 'keywords', content: 'Online Slots Real Money' },

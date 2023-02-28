@@ -5,6 +5,7 @@ import { isPlatformServer } from '@angular/common';
 import { Request, Response } from 'express';
 import { Location } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
+import { ActivatedRoute, Router } from '@angular/router';
 // import { SEOMetaService } from 'src/app/services/seo-meta.service';
 
 
@@ -25,7 +26,8 @@ export class NoPageFoundComponent implements OnInit {
   constructor(private location: Location, private metaService: Meta, private metaTitle: Title,
     @Optional() @Inject(REQUEST) private request: Request,
     @Optional() @Inject(RESPONSE) private response: Response,
-    @Inject(PLATFORM_ID) private platformId: any) { }
+    @Inject(PLATFORM_ID) private platformId: any,private route:ActivatedRoute,
+    private router:Router) { }
  
   
   ngOnInit(): void {
@@ -35,9 +37,12 @@ export class NoPageFoundComponent implements OnInit {
       this.response.status(404);
     }
 
+    if(this.route.snapshot.url[0].path.toLowerCase()!==this.route.snapshot.url[0].path)
+    this.router.navigate([this.route.snapshot.url[0].path.toLowerCase()]);
+
     this.metaTitle.setTitle('Page not found - en.crazyvegas.com');
     this.metaService.addTags([
-      {name: 'description', content: 'Best Online Casinos USA (2022)  Compare Top USA Casino Sites.'},
+      {name: 'description', content: 'Best Online Casinos USA (2023)  Compare Top USA Casino Sites.'},
       { name: 'keywords', content: 'Page not found' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

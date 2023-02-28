@@ -11,7 +11,7 @@ export class DreamsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Dreams Casino Review 2022 - Is Dreams Casino a Safe Casino?');
+    this.metaTitle.setTitle('Dreams Casino Review 2023 - Is Dreams Casino a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Dreams Casino review. Sign up to claim your 25 Free Spins welcome bonus from Dreams Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Dreams Casino review' },

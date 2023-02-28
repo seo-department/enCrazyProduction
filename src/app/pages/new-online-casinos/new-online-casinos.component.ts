@@ -30,7 +30,7 @@ export class NewOnlineCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best New Online Casinos USA 2022 - Compare New Casino Sites');
+    this.metaTitle.setTitle('Best New Online Casinos USA 2023 - Compare New Casino Sites');
     this.metaService.addTags([
       {name: 'description', content: 'Looking for the best new online casinos? Find reviews and bonus codes for new casinos online. See what the latest casino sites have to offer here.'},
       { name: 'keywords', content: 'New Online Casinos' },

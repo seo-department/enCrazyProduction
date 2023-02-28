@@ -11,7 +11,7 @@ export class CoolcatCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('CoolCat Review 2022 - Is CoolCat a Safe Casino?');
+    this.metaTitle.setTitle('CoolCat Review 2023 - Is CoolCat a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted CoolCat casino review. Sign up to claim your 330% welcome bonus from CoolCat casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'CoolCat casino review' },
