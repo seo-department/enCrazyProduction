@@ -273,8 +273,6 @@ import { GrandeVegasComponent } from './reviews/grande-vegas/grande-vegas.compon
 import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capital.component';
 import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
 import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
-import { EthereumCasinosComponent } from './pages/ethereum-casinos/ethereum-casinos.component';
-import { PokerComponent } from './pages/ethereum/poker/poker.component';
 
 
 @NgModule({
@@ -542,8 +540,6 @@ import { PokerComponent } from './pages/ethereum/poker/poker.component';
      JackpotCapitalComponent,
      SlotasticCasinoComponent,
      SlotsRoomComponent,
-     EthereumCasinosComponent,
-     PokerComponent,
 
   ],
 

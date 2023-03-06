@@ -41,8 +41,6 @@ import { OnlinePokerComponent } from './pages/casino-games/online-poker/online-p
 import { OnlineVideoPokerComponent } from './pages/casino-games/online-video-poker/online-video-poker.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { DownloadCasinosComponent } from './pages/download-casinos/download-casinos.component';
-import { EthereumCasinosComponent } from './pages/ethereum/ethereum-casinos/ethereum-casinos.component';
-import { PokerComponent } from './pages/ethereum/poker/poker.component';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { FreeCasinoGamesComponent } from './pages/free-casino-games/free-casino-games.component';
 import { HighRollerCasinosComponent } from './pages/high-roller-casinos/high-roller-casinos.component';
@@ -510,11 +508,6 @@ const routes: Routes = [
     { path: '5-reel-slots', component: FiveReelSlotsComponent,},
     { path: 'slots-tips', component: SlotsTipsComponent,},
     { path: '3-reel-slots', component: ThreeReelSlotsComponent,},
-   ], },
-   
-    { path: 'ethereum-casinos', children: [
-    { path: '', component: EthereumCasinosComponent,},
-    { path: 'poker', component: PokerComponent,},
    ], },
    
    { path: 'online-video-poker', children:[
