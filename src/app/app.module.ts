@@ -1,6 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule, Meta, Title } from '@angular/platform-browser';
-import { LazyLoadImageModule} from 'ng-lazyload-image';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgAisModule } from 'angular-instantsearch';
@@ -269,12 +269,12 @@ import { PageAndReviewTemplateComponent } from './page-and-review-template/page-
 import { CRulesComponent } from './pages/c-rules/c-rules.component';
 import { CTipsComponent } from './pages/c-tips/c-tips.component';
 import { CPlayComponent } from './pages/c-play/c-play.component';
-import { GrandeVegasCasinoReviewComponent } from './reviews/grande-vegas-casino-review/grande-vegas-casino-review.component';
-import { JackpotCapitalCasinoReviewComponent } from './reviews/jackpot-capital-casino-review/jackpot-capital-casino-review.component';
-import { SlotasticCasinoReviewComponent } from './reviews/slotastic-casino-review/slotastic-casino-review.component';
-import { SlotsRoomCasinoReviewComponent } from './reviews/slots-room-casino-review/slots-room-casino-review.component';
-
-
+import { GrandeVegasComponent } from './reviews/grande-vegas/grande-vegas.component';
+import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capital.component';
+import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
+import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
+import { EthereumCasinosComponent } from './pages/ethereum-casinos/ethereum-casinos.component';
+import { PokerComponent } from './pages/ethereum/poker/poker.component';
 
 
 @NgModule({
@@ -538,21 +538,24 @@ import { SlotsRoomCasinoReviewComponent } from './reviews/slots-room-casino-revi
      CRulesComponent,
      CTipsComponent,
      CPlayComponent,
-     GrandeVegasCasinoReviewComponent,
-     JackpotCapitalCasinoReviewComponent,
-     SlotasticCasinoReviewComponent,
-     SlotsRoomCasinoReviewComponent,
+     GrandeVegasComponent,
+     JackpotCapitalComponent,
+     SlotasticCasinoComponent,
+     SlotsRoomComponent,
+     EthereumCasinosComponent,
+     PokerComponent,
 
   ],
+
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    LazyLoadImageModule,
     RouterModule,
     FormsModule,
     NgAisModule.forRoot(),
     HttpClientModule,
     AppRoutingModule,
     NgxScrollTopModule,
+    LazyLoadImageModule
     
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

@@ -41,6 +41,8 @@ import { OnlinePokerComponent } from './pages/casino-games/online-poker/online-p
 import { OnlineVideoPokerComponent } from './pages/casino-games/online-video-poker/online-video-poker.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { DownloadCasinosComponent } from './pages/download-casinos/download-casinos.component';
+import { EthereumCasinosComponent } from './pages/ethereum/ethereum-casinos/ethereum-casinos.component';
+import { PokerComponent } from './pages/ethereum/poker/poker.component';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { FreeCasinoGamesComponent } from './pages/free-casino-games/free-casino-games.component';
 import { HighRollerCasinosComponent } from './pages/high-roller-casinos/high-roller-casinos.component';
@@ -187,14 +189,14 @@ import { FreeSpinCasinoReviewComponent } from './reviews/free-spin-casino-review
 import { GoldenLionCasinoReviewComponent } from './reviews/golden-lion-casino-review/golden-lion-casino-review.component';
 import { GossipSlotsCasinoReviewComponent } from './reviews/gossip-slots-casino-review/gossip-slots-casino-review.component';
 import { GrandRushCasinoReviewComponent } from './reviews/grand-rush-casino-review/grand-rush-casino-review.component';
-import { GrandeVegasCasinoReviewComponent } from './reviews/grande-vegas-casino-review/grande-vegas-casino-review.component';
+import { GrandeVegasComponent } from './reviews/grande-vegas/grande-vegas.component';
 import { HiLoRollerSlotReviewComponent } from './reviews/hi-lo-roller-slot-review/hi-lo-roller-slot-review.component';
 import { HighCountryCasinoReviewComponent } from './reviews/high-country-casino-review/high-country-casino-review.component';
 import { HighNoonCasinoReviewComponent } from './reviews/high-noon-casino-review/high-noon-casino-review.component';
 import { HighwayCasinoReviewComponent } from './reviews/highway-casino-review/highway-casino-review.component';
 import { IgnitionCasinoReviewComponent } from './reviews/ignition-casino-review/ignition-casino-review.component';
 import { IrishLuckCasinoReviewComponent } from './reviews/irish-luck-casino-review/irish-luck-casino-review.component';
-import { JackpotCapitalCasinoReviewComponent } from './reviews/jackpot-capital-casino-review/jackpot-capital-casino-review.component';
+import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capital.component';
 import { JackspayCasinoReviewComponent } from './reviews/jackspay-casino-review/jackspay-casino-review.component';
 import { JuicyVegasCasinoReviewComponent } from './reviews/juicy-vegas-casino-review/juicy-vegas-casino-review.component';
 import { LasAtlantisCasinoReviewComponent } from './reviews/las-atlantis-casino-review/las-atlantis-casino-review.component';
@@ -225,12 +227,12 @@ import { SandPrincessSlotReviewComponent } from './reviews/sand-princess-slot-re
 import { ShazamCasinoReviewComponent } from './reviews/shazam-casino-review/shazam-casino-review.component';
 import { SilverOakCasinoReviewComponent } from './reviews/silver-oak-casino-review/silver-oak-casino-review.component';
 import { SlotMadnessCasinoReviewComponent } from './reviews/slot-madness-casino-review/slot-madness-casino-review.component';
-import { SlotasticCasinoReviewComponent } from './reviews/slotastic-casino-review/slotastic-casino-review.component';
+import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
 import { SlotsEmpireCasinoReviewComponent } from './reviews/slots-empire-casino-review/slots-empire-casino-review.component';
 import { SlotsLvCasinoReviewComponent } from './reviews/slots-lv-casino-review/slots-lv-casino-review.component';
 import { SlotsOfVegasCasinoReviewComponent } from './reviews/slots-of-vegas-casino-review/slots-of-vegas-casino-review.component';
 import { SlotsPlusCasinoReviewComponent } from './reviews/slots-plus-casino-review/slots-plus-casino-review.component';
-import { SlotsRoomCasinoReviewComponent } from './reviews/slots-room-casino-review/slots-room-casino-review.component';
+import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
 import { SlotyCasinoReviewComponent } from './reviews/sloty-casino-review/sloty-casino-review.component';
 import { SpinfinityCasinoReviewComponent } from './reviews/spinfinity-casino-review/spinfinity-casino-review.component';
 import { SportsAndCasinoReviewComponent } from './reviews/sports-and-casino-review/sports-and-casino-review.component';
@@ -264,10 +266,10 @@ const routes: Routes = [
 
   // reviews pages
   { path: 'silver-oak-casino-review', component: SilverOakCasinoReviewComponent, },
-  { path: 'grande-vegas-casino-review', component: GrandeVegasCasinoReviewComponent, },
-  { path: 'jackpot-capital-casino-review', component: JackpotCapitalCasinoReviewComponent, },
-  { path: 'slotastic-casino-review', component: SlotasticCasinoReviewComponent, },
-  { path: 'slots-room-casino-review', component: SlotsRoomCasinoReviewComponent, },
+  { path: 'grande-vegas-casino-review', component: GrandeVegasComponent, },
+  { path: 'slotastic-casino-review', component: SlotasticCasinoComponent, },
+  { path: 'capital-jackpot-casino-review', component: JackpotCapitalComponent, },
+  { path: 'slots-room-casino-review', component: SlotsRoomComponent, },
   { path: 'slot-madness-casino-review', component: SlotMadnessCasinoReviewComponent, },
   { path: 'roaring-21-casino-review', component: RoaringCasinoReviewComponent,},
   { path: 'lucky-hippo-casino-review', component: LuckyHippoCasinoReviewComponent,},
@@ -508,6 +510,11 @@ const routes: Routes = [
     { path: '5-reel-slots', component: FiveReelSlotsComponent,},
     { path: 'slots-tips', component: SlotsTipsComponent,},
     { path: '3-reel-slots', component: ThreeReelSlotsComponent,},
+   ], },
+   
+    { path: 'ethereum-casinos', children: [
+    { path: '', component: EthereumCasinosComponent,},
+    { path: 'poker', component: PokerComponent,},
    ], },
    
    { path: 'online-video-poker', children:[
