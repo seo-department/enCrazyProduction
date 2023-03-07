@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /play/
+Disallow: /styles.d3c5ef5c315a7e04c3f2.css
+Disallow: /sunny-casino-review
+Sitemap: https://en.crazyvegas.com/sitemap.xml
