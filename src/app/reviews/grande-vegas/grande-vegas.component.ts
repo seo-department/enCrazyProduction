@@ -11,9 +11,10 @@ export class GrandeVegasComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Grande Vegas Casino Review 2023 - Is Grande Vegas a Safe Casino?');
+    this.metaTitle.setTitle('Grand Rush Casino Review 2023 - Is Grand Rush a Safe Casino?');
     this.metaService.addTags([
-      {name: 'description', content: 'Honest Grande Vegas Casino review. Sign up to claim your $10,000 welcome bonus from Grande Vegas Casino. Read our trusted casino review here.' },
+      {name: 'description', content: 'Honest Grand Rush Casino review. Sign up to claim your $1,000 welcome bonus from Grand Rush Casino. Read our trusted casino review here.'},
+      { name: 'keywords', content: 'Grand Rush Casino review' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },
     ]);
