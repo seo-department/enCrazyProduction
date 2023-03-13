@@ -21,7 +21,7 @@ export class MainTableComponent implements OnInit {
   high_country="https://imgix.cosmicjs.com/79dcb820-20f4-11ec-a8e0-f76ec38a4b1a-high-country.png";
   red_dog_casino="https://imgix.cosmicjs.com/79e48050-20f4-11ec-a8e0-f76ec38a4b1a-red-dog-casino.png";
   wild_coins_casino="https://imgix.cosmicjs.com/3b27da30-a117-11ec-a634-2f1716dd45af-wild-coins-casino-logo.png";
-  cherry_gold_casino="https://imgix.cosmicjs.com/79de3ec0-20f4-11ec-a8e0-f76ec38a4b1a-cherry-gold-casino.png";
+  cherry_gold_casino="https://imgix.cosmicjs.com/eab993e0-c16d-11ed-a451-7f625299de0a-146x70-cherry-gold-casino.png";
   rich_palms_casino="https://imgix.cosmicjs.com/797b1020-20f4-11ec-a8e0-f76ec38a4b1a-rich-palms-casino.png";
   betus_casino="https://imgix.cosmicjs.com/998ecee0-7768-11ec-bfef-718573fe8f91-betus-casino.png";
   highway="https://imgix.cosmicjs.com/79ddc990-20f4-11ec-a8e0-f76ec38a4b1a-highway-casino.png";
@@ -51,7 +51,7 @@ export class MainTableComponent implements OnInit {
   vegas_casino="https://imgix.cosmicjs.com/8742fac0-a11d-11ec-a634-2f1716dd45af-vegas-casino-online-us.png";
   royal_ace="https://imgix.cosmicjs.com/79e124f0-20f4-11ec-a8e0-f76ec38a4b1a-royal-ace-casino.png";
   gossip="https://imgix.cosmicjs.com/79e91430-20f4-11ec-a8e0-f76ec38a4b1a-gossip-slots-casino.png";
-  goldenlion="https://imgix.cosmicjs.com/79da9540-20f4-11ec-a8e0-f76ec38a4b1a-goldenlion-casino.png";
+  goldenlion="https://imgix.cosmicjs.com/ead420c0-c16d-11ed-a451-7f625299de0a-146x70-golden-lion-casino.png";
   freespin="https://imgix.cosmicjs.com/79a99a30-20f4-11ec-a8e0-f76ec38a4b1a-freespin-casino.png";
   eclipse="https://imgix.cosmicjs.com/79e20f50-20f4-11ec-a8e0-f76ec38a4b1a-eclipse-casino.png";
   exclusive="https://imgix.cosmicjs.com/79d8c080-20f4-11ec-a8e0-f76ec38a4b1a-exclusive-casino.png";
