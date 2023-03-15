@@ -106,6 +106,10 @@ export class MainTableComponent implements OnInit {
   slotsninja="https://imgix.cosmicjs.com/53764020-7242-11ed-bac9-7fe1734a16aa-146x70-slots-ninja-casino.png";
   slotsroom="https://imgix.cosmicjs.com/537555c0-7242-11ed-bac9-7fe1734a16aa-146x70-slotsroom-casino.png";
   limitless_casino="https://imgix.cosmicjs.com/9c462390-b402-11ed-80d4-cdbe55252435-146x70-limitless-casino.png";
+  kings_chance_casino="https://imgix.cosmicjs.com/9d4f2550-c33b-11ed-a451-7f625299de0a-146x70-kings-chance.png";
+  lucky_treasure_casino="https://imgix.cosmicjs.com/9d536b10-c33b-11ed-a451-7f625299de0a-146x70-lucky-treasure.png";
+  punt_casino="https://imgix.cosmicjs.com/9d6aeab0-c33b-11ed-a451-7f625299de0a-146x70-punt-casino.png";
+  crypto_loko_casino="https://imgix.cosmicjs.com/9d545570-c33b-11ed-a451-7f625299de0a-146x70-crypto-loko.png";
   
 
 
