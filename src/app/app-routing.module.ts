@@ -41,6 +41,8 @@ import { OnlinePokerComponent } from './pages/casino-games/online-poker/online-p
 import { OnlineVideoPokerComponent } from './pages/casino-games/online-video-poker/online-video-poker.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { DownloadCasinosComponent } from './pages/download-casinos/download-casinos.component';
+import { EthereumCasinosComponent } from './pages/ethereum-casinos/ethereum-casinos/ethereum-casinos.component';
+import { PokerComponent } from './pages/ethereum-casinos/poker/poker.component';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { FreeCasinoGamesComponent } from './pages/free-casino-games/free-casino-games.component';
 import { HighRollerCasinosComponent } from './pages/high-roller-casinos/high-roller-casinos.component';
@@ -228,6 +230,7 @@ import { SlotMadnessCasinoReviewComponent } from './reviews/slot-madness-casino-
 import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
 import { SlotsEmpireCasinoReviewComponent } from './reviews/slots-empire-casino-review/slots-empire-casino-review.component';
 import { SlotsLvCasinoReviewComponent } from './reviews/slots-lv-casino-review/slots-lv-casino-review.component';
+import { SlotsNinjaComponent } from './reviews/slots-ninja/slots-ninja/slots-ninja.component';
 import { SlotsOfVegasCasinoReviewComponent } from './reviews/slots-of-vegas-casino-review/slots-of-vegas-casino-review.component';
 import { SlotsPlusCasinoReviewComponent } from './reviews/slots-plus-casino-review/slots-plus-casino-review.component';
 import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
@@ -345,6 +348,8 @@ const routes: Routes = [
   { path: 'slots-of-vegas-casino-review', component: SlotsOfVegasCasinoReviewComponent,},
   { path: 'gossip-slots-casino-review', component: GossipSlotsCasinoReviewComponent,},
   { path: 'wild-vegas-casino-review', component: WildVegasCasinoReviewComponent,},
+  { path: 'jackpot-capital-casino-review', component: JackpotCapitalComponent,},
+  { path: 'slots-ninja-casino-review', component: SlotsNinjaComponent,},
 
   { path: 'dreams-casino-review', component: DreamsCasinoReviewComponent,},
   { path: 'captain-jack-casino-review', component: CaptainJackCasinoReviewComponent,},
@@ -523,6 +528,12 @@ const routes: Routes = [
      { path: 'double-double-bonus-video-poker', component: DoubleDoubleBonusVideoPokerComponent,},
      
    ], },
+
+  { path: 'ethereum-casinos', children:[
+    { path: '', component: EthereumCasinosComponent,},
+    { path: 'poker', component: PokerComponent,},
+    
+  ], },
 
    { path: 'casino-games', component: CasinoGamesComponent,},
    { path: 'sitemap', component: SitemapComponent,},
