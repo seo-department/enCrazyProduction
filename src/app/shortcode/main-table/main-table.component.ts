@@ -110,6 +110,12 @@ export class MainTableComponent implements OnInit {
   lucky_treasure_casino="https://imgix.cosmicjs.com/9d536b10-c33b-11ed-a451-7f625299de0a-146x70-lucky-treasure.png";
   punt_casino="https://imgix.cosmicjs.com/9d6aeab0-c33b-11ed-a451-7f625299de0a-146x70-punt-casino.png";
   crypto_loko_casino="https://imgix.cosmicjs.com/9d545570-c33b-11ed-a451-7f625299de0a-146x70-crypto-loko.png";
+  red_cherry="https://imgix.cosmicjs.com/8334d9c0-c97c-11ed-a451-7f625299de0a-146x70-red-cherry-casino.png";
+  lady_luck_casino="https://imgix.cosmicjs.com/8319d7b0-c97c-11ed-a451-7f625299de0a-146x70-lady-luck-casino.png";
+  triple_seven_casino="https://imgix.cosmicjs.com/831b1030-c97c-11ed-a451-7f625299de0a-146x70-triple-seven-casino.png";
+  inet_bet_casino="https://imgix.cosmicjs.com/83357600-c97c-11ed-a451-7f625299de0a-146x70-inet-bet-casino.png";
+  kudos_casino="https://imgix.cosmicjs.com/831a4ce0-c97c-11ed-a451-7f625299de0a-146x70-kudos-casino.png";
+  prima_play_casino="https://imgix.cosmicjs.com/83191460-c97c-11ed-a451-7f625299de0a-146x70-prima-play-casino.png";
   
 
 
