@@ -21,7 +21,7 @@ export class MainTableComponent implements OnInit {
   high_country="https://imgix.cosmicjs.com/79dcb820-20f4-11ec-a8e0-f76ec38a4b1a-high-country.png";
   red_dog_casino="https://imgix.cosmicjs.com/79e48050-20f4-11ec-a8e0-f76ec38a4b1a-red-dog-casino.png";
   wild_coins_casino="https://imgix.cosmicjs.com/3b27da30-a117-11ec-a634-2f1716dd45af-wild-coins-casino-logo.png";
-  cherry_gold_casino="https://imgix.cosmicjs.com/79de3ec0-20f4-11ec-a8e0-f76ec38a4b1a-cherry-gold-casino.png";
+  cherry_gold_casino="https://imgix.cosmicjs.com/eab993e0-c16d-11ed-a451-7f625299de0a-146x70-cherry-gold-casino.png";
   rich_palms_casino="https://imgix.cosmicjs.com/797b1020-20f4-11ec-a8e0-f76ec38a4b1a-rich-palms-casino.png";
   betus_casino="https://imgix.cosmicjs.com/998ecee0-7768-11ec-bfef-718573fe8f91-betus-casino.png";
   highway="https://imgix.cosmicjs.com/79ddc990-20f4-11ec-a8e0-f76ec38a4b1a-highway-casino.png";
@@ -51,7 +51,7 @@ export class MainTableComponent implements OnInit {
   vegas_casino="https://imgix.cosmicjs.com/8742fac0-a11d-11ec-a634-2f1716dd45af-vegas-casino-online-us.png";
   royal_ace="https://imgix.cosmicjs.com/79e124f0-20f4-11ec-a8e0-f76ec38a4b1a-royal-ace-casino.png";
   gossip="https://imgix.cosmicjs.com/79e91430-20f4-11ec-a8e0-f76ec38a4b1a-gossip-slots-casino.png";
-  goldenlion="https://imgix.cosmicjs.com/79da9540-20f4-11ec-a8e0-f76ec38a4b1a-goldenlion-casino.png";
+  goldenlion="https://imgix.cosmicjs.com/ead420c0-c16d-11ed-a451-7f625299de0a-146x70-golden-lion-casino.png";
   freespin="https://imgix.cosmicjs.com/79a99a30-20f4-11ec-a8e0-f76ec38a4b1a-freespin-casino.png";
   eclipse="https://imgix.cosmicjs.com/79e20f50-20f4-11ec-a8e0-f76ec38a4b1a-eclipse-casino.png";
   exclusive="https://imgix.cosmicjs.com/79d8c080-20f4-11ec-a8e0-f76ec38a4b1a-exclusive-casino.png";
@@ -99,15 +99,25 @@ export class MainTableComponent implements OnInit {
   Myb="https://imgix.cosmicjs.com/79e36ee0-20f4-11ec-a8e0-f76ec38a4b1a-MYB-casino-usa.jpg";
   captain="https://imgix.cosmicjs.com/79aaaba0-20f4-11ec-a8e0-f76ec38a4b1a-captain-jack-casino.png";
   palace_of_chance="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  slotastic_casino="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
+  slotastic_casino="https://imgix.cosmicjs.com/6c768340-55d3-11ed-ad09-c72945a155e5-146x70-slotastic-casino.png";
   Wcbb_WdX="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  grande_vegas="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  jackpot_capital="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  slotsninja="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  slotsroom="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  limitless_casino="https://imgix.cosmicjs.com/79e061a0-20f4-11ec-a8e0-f76ec38a4b1a-palace-of-chance-casino.png";
-  
-
+  grande_vegas="https://imgix.cosmicjs.com/6c771f80-55d3-11ed-ad09-c72945a155e5-146x70-grande-vegas-casino.png";
+  jackpot_capital="https://imgix.cosmicjs.com/6c72d9c0-55d3-11ed-ad09-c72945a155e5-146x70-jackpot-capital-casino.png";
+  slotsninja="https://imgix.cosmicjs.com/53764020-7242-11ed-bac9-7fe1734a16aa-146x70-slots-ninja-casino.png";
+  slotsroom="https://imgix.cosmicjs.com/537555c0-7242-11ed-bac9-7fe1734a16aa-146x70-slotsroom-casino.png";
+  limitless_casino="https://imgix.cosmicjs.com/9c462390-b402-11ed-80d4-cdbe55252435-146x70-limitless-casino.png";
+  kings_chance_casino="https://imgix.cosmicjs.com/9d4f2550-c33b-11ed-a451-7f625299de0a-146x70-kings-chance.png";
+  lucky_treasure_casino="https://imgix.cosmicjs.com/9d536b10-c33b-11ed-a451-7f625299de0a-146x70-lucky-treasure.png";
+  punt_casino="https://imgix.cosmicjs.com/9d6aeab0-c33b-11ed-a451-7f625299de0a-146x70-punt-casino.png";
+  crypto_loko_casino="https://imgix.cosmicjs.com/9d545570-c33b-11ed-a451-7f625299de0a-146x70-crypto-loko.png";
+  red_cherry="https://imgix.cosmicjs.com/8334d9c0-c97c-11ed-a451-7f625299de0a-146x70-red-cherry-casino.png";
+  lady_luck_casino="https://imgix.cosmicjs.com/8319d7b0-c97c-11ed-a451-7f625299de0a-146x70-lady-luck-casino.png";
+  triple_seven_casino="https://imgix.cosmicjs.com/831b1030-c97c-11ed-a451-7f625299de0a-146x70-triple-seven-casino.png";
+  inet_bet_casino="https://imgix.cosmicjs.com/83357600-c97c-11ed-a451-7f625299de0a-146x70-inet-bet-casino.png";
+  kudos_casino="https://imgix.cosmicjs.com/831a4ce0-c97c-11ed-a451-7f625299de0a-146x70-kudos-casino.png";
+  kaboombet_casino="https://imgix.cosmicjs.com/7dfd6670-cfc1-11ed-a451-7f625299de0a-146x70-kaboombet-casino.png";
+  winstark_casino="https://imgix.cosmicjs.com/7e00c1d0-cfc1-11ed-a451-7f625299de0a-146x70-winstark-casino.png";
+  prima_play_casino="https://imgix.cosmicjs.com/83191460-c97c-11ed-a451-7f625299de0a-146x70-prima-play-casino.png";
 
   constructor() { }
 
