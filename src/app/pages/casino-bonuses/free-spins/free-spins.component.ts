@@ -11,7 +11,7 @@ export class FreeSpinsComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Free Spins Bonuses 2023 – Best Free Spins Bonus Codes');
+    this.metaTitle.setTitle('Free Spins Bonuses 2024 – Best Free Spins Bonus Codes');
     this.metaService.addTags([
       {name: 'description', content: 'Find the best free spins bonus codes. A complete guide to find free spins bonuses, tips, and requirements on how to claim free spins no deposit bonuses!'},
       { name: 'keywords', content: 'Free Spins Bonuses' },
