@@ -11,7 +11,7 @@ export class BovegasCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Bovegas Casino Review 2023 – Is Bovegas a Safe Casino?');
+    this.metaTitle.setTitle('Bovegas Casino Review 2024 – Is Bovegas a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Bovegas Casino Review. Sign up today and claim your $5500 Welcome Bonus from Bovegas Casino. Read our honest review here.'},
       { name: 'keywords', content: 'Bovegas Casino Review' },

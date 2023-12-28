@@ -11,7 +11,7 @@ export class CryptoReelsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Crypto Reels Casino Review 2023 - Is Crypto Reels a Safe Casino?');
+    this.metaTitle.setTitle('Crypto Reels Casino Review 2024 - Is Crypto Reels a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Crypto Reels Casino review. Sign up to claim your $4,500 welcome bonus from Crypto Reels Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Crypto reels review' },

@@ -11,7 +11,7 @@ export class DomGameCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('DomGame Casino Review 2023 - Is DomGame a Safe Casino?');
+    this.metaTitle.setTitle('DomGame Casino Review 2024 - Is DomGame a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest DomGame Casino review. Sign up to claim your 200% welcome bonus from DomGame Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'DomGame Casino review' },

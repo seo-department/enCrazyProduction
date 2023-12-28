@@ -11,7 +11,7 @@ export class EcopayzCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best ecoPayz Casinos 2023 - Casinos Accepting ecoPayz Payments');
+    this.metaTitle.setTitle('Best ecoPayz Casinos 2024 - Casinos Accepting ecoPayz Payments');
     this.metaService.addTags([
       {name: 'description', content: 'EcoPayz casinos guide. Top casinos where EcoPayz is an accepted real money withdrawal and deposit method. The best EcoPayz casino services.'},
       { name: 'keywords', content: 'Best ecoPayz Casinos' },

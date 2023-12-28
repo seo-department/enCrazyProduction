@@ -11,7 +11,7 @@ export class CasinoExtremeReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Casino Extreme Review 2023 - Is Casino Extreme Safe?');
+    this.metaTitle.setTitle('Casino Extreme Review 2024 - Is Casino Extreme Safe?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Casino Extreme review. Sign up to claim your $3,000 welcome bonus from Casino Extreme. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Extreme Casino Review' },

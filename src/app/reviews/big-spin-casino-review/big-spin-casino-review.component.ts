@@ -11,7 +11,7 @@ export class BigSpinCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('BigSpinCasino Review 2023 – Is BigSpin a Safe Casino?');
+    this.metaTitle.setTitle('BigSpinCasino Review 2024 – Is BigSpin a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest BigSpinCasino review. Sign up to claim your $1,000 welcome bonus from BigSpinCasino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Big Spin Casino review' },

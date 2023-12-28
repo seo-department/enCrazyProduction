@@ -11,7 +11,7 @@ export class WelcomeBonusComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Welcome Bonuses 2023 - Online Casinos with Sign-Up Bonuses');
+    this.metaTitle.setTitle('Best Welcome Bonuses 2024 - Online Casinos with Sign-Up Bonuses');
     this.metaService.addTags([
       {name: 'description', content: 'Looking for the best welcome bonuses? Register at casinos listed on the Crazy Vegas Casino table for exclusive casino welcome bonuses.'},
       { name: 'keywords', content: 'Best Welcome Bonuses' },

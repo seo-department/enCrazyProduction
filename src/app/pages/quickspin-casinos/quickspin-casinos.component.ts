@@ -13,7 +13,7 @@ export class QuickspinCasinosComponent implements OnInit {
   ngOnInit(): void {
     this.metaTitle.setTitle('Best Quickspin Casinos - Claim the Best Quickspin Bonuses');
     this.metaService.addTags([
-      {name: 'description', content: 'Quickspin Casinos 2023. Get the best casino games online and exciting bonuses at top Quickspin Casinos. Click to find out more about Quickspin.'},
+      {name: 'description', content: 'Quickspin Casinos 2024. Get the best casino games online and exciting bonuses at top Quickspin Casinos. Click to find out more about Quickspin.'},
       { name: 'keywords', content: 'Quickspin Casinos' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

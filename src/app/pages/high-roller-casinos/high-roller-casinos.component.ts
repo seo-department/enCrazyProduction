@@ -11,7 +11,7 @@ export class HighRollerCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best High Roller Casinos 2023 - High Limit Casinos for Big Spenders');
+    this.metaTitle.setTitle('Best High Roller Casinos 2024 - High Limit Casinos for Big Spenders');
     this.metaService.addTags([
       {name: 'description', content: 'High roller casinos offer exclusive VIP bonus rewards for big spenders. The best high roller casino sites offer high stake games for VIP players.'},
       { name: 'keywords', content: 'High Roller Casinos' },
