@@ -11,7 +11,7 @@ export class PlanetSevenCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Planet 7 Review 2023 - Is Planet 7 a Safe Casino?');
+    this.metaTitle.setTitle('Planet 7 Review 2024 - Is Planet 7 a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Planet 7 Casino review. Sign up to claim your 400% welcome bonus from Planet 7 Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Planet 7 Casino review' },

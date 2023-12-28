@@ -11,7 +11,7 @@ export class SupernovaCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Supernova Casino Review 2023 - Is Supernova a Safe Casino?');
+    this.metaTitle.setTitle('Supernova Casino Review 2024 - Is Supernova a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Supernova Casino review. Sign up to claim your 300% welcome bonus from Supernova Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Supernova Casino review' },

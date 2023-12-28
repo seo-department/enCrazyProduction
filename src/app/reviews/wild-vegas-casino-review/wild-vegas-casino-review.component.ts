@@ -11,7 +11,7 @@ export class WildVegasCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Wild Vegas Casino Review 2023 - Is Wild Vegas a Safe Casino?');
+    this.metaTitle.setTitle('Wild Vegas Casino Review 2024 - Is Wild Vegas a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Wild Vegas Casino review. Sign up to claim your 350% welcome bonus from Wild Vegas Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Wild Vegas Casino Review' },

@@ -11,7 +11,7 @@ export class MybCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('MYBCasino Review 2023 - Is MYB a Safe Casino?');
+    this.metaTitle.setTitle('MYBCasino Review 2024 - Is MYB a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest MYBCasino review. Sign up to claim your $1,000 welcome bonus from MYBCasino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'MYB Casino review' },

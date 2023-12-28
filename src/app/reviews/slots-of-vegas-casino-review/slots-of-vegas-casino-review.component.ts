@@ -11,7 +11,7 @@ export class SlotsOfVegasCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Slots of Vegas Casino Review 2023 - Is Slots of Vegas Safe Casino?');
+    this.metaTitle.setTitle('Slots of Vegas Casino Review 2024 - Is Slots of Vegas Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Slots of Vegas Casino review. Sign up to claim your 400% welcome bonus from Slots of vegas Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Slots of Vegas Casino review' },

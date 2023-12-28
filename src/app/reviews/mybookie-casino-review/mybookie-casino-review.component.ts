@@ -11,7 +11,7 @@ export class MybookieCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best MyBookie Casino Review 2023 – Is MyBookie a Safe Casino?');
+    this.metaTitle.setTitle('Best MyBookie Casino Review 2024 – Is MyBookie a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted MyBookie Casino review. Sign up to claim your $1,000 welcome bonus from MyBookie casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'MyBookie Casino Review' },

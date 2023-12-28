@@ -11,7 +11,7 @@ export class VegasCrestCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Vegas Crest Casino Review 2023 - Is Vegas Crest a Safe Casino?');
+    this.metaTitle.setTitle('Vegas Crest Casino Review 2024 - Is Vegas Crest a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Vegas Crest Casino review. Sign up to claim your 250% welcome bonus from Vegas Crest Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Vegas Crest Casino Review' },

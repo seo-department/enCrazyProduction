@@ -12,7 +12,7 @@ export class TigerGamingCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Tiger Gaming Casino Review 2023 – Is Tiger Gaming Safe?');
+    this.metaTitle.setTitle('Best Tiger Gaming Casino Review 2024 – Is Tiger Gaming Safe?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Tiger Gaming Casino review. Sign up to claim your $1,000 welcome bonus from Tiger Gaming Casino. Read our honest casino review here.'},
       { name: 'keywords', content: 'Tiger Gaming Casino Review' },

@@ -11,7 +11,7 @@ export class ManhattanSlotsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Manhattan Slots Casino Review 2023 - Is Manhattan Slots a Safe Casino?');
+    this.metaTitle.setTitle('Manhattan Slots Casino Review 2024 - Is Manhattan Slots a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Manhattan Slots Casino review. Sign up to claim your $747 welcome bonus from Manhattan Slots Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Manhattan Slots Casino review' },
