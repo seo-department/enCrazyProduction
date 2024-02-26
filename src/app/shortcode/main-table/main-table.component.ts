@@ -119,7 +119,9 @@ export class MainTableComponent implements OnInit {
   winstark_casino="https://imgix.cosmicjs.com/7e00c1d0-cfc1-11ed-a451-7f625299de0a-146x70-winstark-casino.png";
   prima_play_casino="https://imgix.cosmicjs.com/83191460-c97c-11ed-a451-7f625299de0a-146x70-prima-play-casino.png";
   thunderpick_casino="https://imgix.cosmicjs.com/c040c6b0-5c4a-11ee-8d99-6566412c38cc-146x70-thunderpick-casino.png";
-  ducky_luck_casino="https://imgix.cosmicjs.com/399b6b40-5d14-11ee-bdcf-b7795530a864-146x70-duckyluck-casino-usa.png"
+  ducky_luck_casino="https://imgix.cosmicjs.com/399b6b40-5d14-11ee-bdcf-b7795530a864-146x70-duckyluck-casino-usa.png";
+  slots_paradise="https://imgix.cosmicjs.com/caf0fd60-d499-11ee-a584-65599426e889-146x70-slots-paradise-casino.png";
+  vegas_aces="https://imgix.cosmicjs.com/caf28400-d499-11ee-a584-65599426e889-146x70-vegas-aces-casino.png"
   constructor() { }
 
   ngOnInit(): void {
