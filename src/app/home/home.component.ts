@@ -9,10 +9,10 @@ import { Meta, Title } from '@angular/platform-browser';
 export class HomeComponent implements OnInit {
   logo_casino ="https://imgix.cosmicjs.com/79171e30-20f4-11ec-a8e0-f76ec38a4b1a-128x128-real-online-casino.png";
   real_online_casino ="https://imgix.cosmicjs.com/79ac3240-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-real-money.png";
-
+  best_usa_online_casinos="https://imgix.cosmicjs.com/42a692c0-017c-11ef-9e48-85dc2e02a5a2-620x240-best-usa-online-casino-sites.png"
   online_casinos_usa ="https://imgix.cosmicjs.com/79789f20-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-usa.png";
   online_casino_games ="https://imgix.cosmicjs.com/797829f0-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casino-games-1.png";
-
+  us_online_casinos="https://imgix.cosmicjs.com/2d124e60-0184-11ef-9e48-85dc2e02a5a2-150x150-us-online-casinos.png"
   online_casino_reviews ="https://imgix.cosmicjs.com/7948b580-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casino-reviews.png";
   online_casinos_that_accept_cash_app ="https://imgix.cosmicjs.com/797c48a0-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-that-accept-cash-app.png";
 
@@ -44,9 +44,9 @@ export class HomeComponent implements OnInit {
   constructor( private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best USA Online Casinos - Top Real Money Online Gambling Sites 2024');
+    this.metaTitle.setTitle('Best USA Online Casinos - Top Real Money Online Casino Sites 2024');
     this.metaService.addTags([
-      {name: 'description', content: 'Play at the best online casinos USA. Crazy Vegas Casino finds honest United States gambling sites accepting US players to play online games for real money.'},
+      {name: 'description', content: 'Play at the best online casinos USA. Crazy Vegas Casino finds honest gambling sites accepting US players. Claim bonuses up to $10,000 and play games.'},
       { name: 'keywords', content: 'Online Casinos' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },
