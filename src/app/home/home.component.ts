@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   best_usa_online_casinos="https://imgix.cosmicjs.com/42a692c0-017c-11ef-9e48-85dc2e02a5a2-620x240-best-usa-online-casino-sites.png"
   online_casinos_usa ="https://imgix.cosmicjs.com/79789f20-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-usa.png";
   online_casino_games ="https://imgix.cosmicjs.com/797829f0-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casino-games-1.png";
-  us_online_casinos="https://imgix.cosmicjs.com/2d124e60-0184-11ef-9e48-85dc2e02a5a2-150x150-us-online-casinos.png"
+  us_online_casinos="https://imgix.cosmicjs.com/61e3b880-0239-11ef-9e48-85dc2e02a5a2-150x150-best-usa-online-casino-sites.png"
   online_casino_reviews ="https://imgix.cosmicjs.com/7948b580-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casino-reviews.png";
   online_casinos_that_accept_cash_app ="https://imgix.cosmicjs.com/797c48a0-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-that-accept-cash-app.png";
   slot_casinos="https://imgix.cosmicjs.com/b354d590-0208-11ef-9e48-85dc2e02a5a2-94x94-slots.png"
