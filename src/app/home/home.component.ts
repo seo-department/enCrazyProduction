@@ -15,7 +15,12 @@ export class HomeComponent implements OnInit {
   us_online_casinos="https://imgix.cosmicjs.com/2d124e60-0184-11ef-9e48-85dc2e02a5a2-150x150-us-online-casinos.png"
   online_casino_reviews ="https://imgix.cosmicjs.com/7948b580-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casino-reviews.png";
   online_casinos_that_accept_cash_app ="https://imgix.cosmicjs.com/797c48a0-20f4-11ec-a8e0-f76ec38a4b1a-128x128-online-casinos-that-accept-cash-app.png";
-
+  slot_casinos="https://imgix.cosmicjs.com/b354d590-0208-11ef-9e48-85dc2e02a5a2-94x94-slots.png"
+  blackjack_casinos="https://imgix.cosmicjs.com/b3541240-0208-11ef-9e48-85dc2e02a5a2-94x94-blackjack.png"
+  craps_casinos="https://imgix.cosmicjs.com/aa03bba0-0208-11ef-9e48-85dc2e02a5a2-94x94-craps.png"
+  video_poker_casinos="https://imgix.cosmicjs.com/aa0c2010-0208-11ef-9e48-85dc2e02a5a2-94x94-video-poker.png"
+  baccarat_casinos="https://imgix.cosmicjs.com/aa0d0a70-0208-11ef-9e48-85dc2e02a5a2-94x94-baccarat.png"
+roulette_casinos="https://imgix.cosmicjs.com/aa054240-0208-11ef-9e48-85dc2e02a5a2-94x94-roulette.png"
 
   visa ="https://imgix.cosmicjs.com/860f6d20-21c3-11ec-a33b-09138673c894-visa-casino-banking.png";
   mastercard ="https://imgix.cosmicjs.com/860ea9d0-21c3-11ec-a33b-09138673c894-mastercard-casino-banking.jpg";
