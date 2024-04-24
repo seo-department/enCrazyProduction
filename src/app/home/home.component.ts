@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   video_poker_casinos="https://imgix.cosmicjs.com/aa0c2010-0208-11ef-9e48-85dc2e02a5a2-94x94-video-poker.png"
   baccarat_casinos="https://imgix.cosmicjs.com/aa0d0a70-0208-11ef-9e48-85dc2e02a5a2-94x94-baccarat.png"
 roulette_casinos="https://imgix.cosmicjs.com/aa054240-0208-11ef-9e48-85dc2e02a5a2-94x94-roulette.png"
-
+ author_haydee="https://imgix.cosmicjs.com/c6edc050-021a-11ef-9e48-85dc2e02a5a2-110x108-author-haydee.png"
   visa ="https://imgix.cosmicjs.com/860f6d20-21c3-11ec-a33b-09138673c894-visa-casino-banking.png";
   mastercard ="https://imgix.cosmicjs.com/860ea9d0-21c3-11ec-a33b-09138673c894-mastercard-casino-banking.jpg";
   debit ="https://imgix.cosmicjs.com/86100960-21c3-11ec-a33b-09138673c894-debit-card-casinos.png";
