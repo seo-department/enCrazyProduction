@@ -273,6 +273,7 @@ import { GrandeVegasComponent } from './reviews/grande-vegas/grande-vegas.compon
 import { JackpotCapitalComponent } from './reviews/jackpot-capital/jackpot-capital.component';
 import { SlotasticCasinoComponent } from './reviews/slotastic-casino/slotastic-casino.component';
 import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
+import { NdbTableComponent } from './shortcode/ndb-table/ndb-table.component';
 
 
 @NgModule({
@@ -540,6 +541,7 @@ import { SlotsRoomComponent } from './reviews/slots-room/slots-room.component';
      JackpotCapitalComponent,
      SlotasticCasinoComponent,
      SlotsRoomComponent,
+     NdbTableComponent,
 
   ],
 
