@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JokaCasinoReviewComponent } from './joka-casino-review.component';
+import { WildCardCityCasinoReviewComponent } from './wild-card-city-casino-review.component';
 
 describe('WildCardCityCasinoReviewComponent', () => {
-  let component: JokaCasinoReviewComponent;
-  let fixture: ComponentFixture<JokaCasinoReviewComponent>;
+  let component: WildCardCityCasinoReviewComponent;
+  let fixture: ComponentFixture<WildCardCityCasinoReviewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ JokaCasinoReviewComponent ]
+      declarations: [ WildCardCityCasinoReviewComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(JokaCasinoReviewComponent);
+    fixture = TestBed.createComponent(WildCardCityCasinoReviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
