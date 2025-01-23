@@ -11,7 +11,7 @@ export class RichPalmsCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Honest Rich Palms Casino Review 2024 - Is Rich Palms a Safe Casino?');
+    this.metaTitle.setTitle('Honest Rich Palms Casino Review 2025 - Is Rich Palms a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Rich Palms Casino review. Sign up to claim your $2,500 welcome bonus from Rich Palms Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Rich Palms Casino review' },

@@ -11,7 +11,7 @@ export class OnlineGamblingTipsComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Online Gambling Tips - Casino Tips That Actually Work 2024');
+    this.metaTitle.setTitle('Online Gambling Tips - Casino Tips That Actually Work 2025');
     this.metaService.addTags([
       {name: 'description', content: 'Top online gambling tips for beginner and advanced players. These tips will help you understand the game rules, the gambling process, find a site and more!'},
       { name: 'keywords', content: 'Online Gambling Tips' },

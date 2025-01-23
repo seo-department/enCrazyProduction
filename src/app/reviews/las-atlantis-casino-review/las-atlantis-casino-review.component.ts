@@ -11,7 +11,7 @@ export class LasAtlantisCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Last Atlantis Casino Review 2024 - Is Las Atlantis a Safe Casino?');
+    this.metaTitle.setTitle('Last Atlantis Casino Review 2025 - Is Las Atlantis a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Las Atlantis Casino review. Sign up to claim your $14,000 welcome bonus from Last Atlantis Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Las Atlantis Casino review' },

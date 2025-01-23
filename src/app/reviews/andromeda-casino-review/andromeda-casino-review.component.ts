@@ -12,7 +12,7 @@ export class AndromedaCasinoReviewComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.metaTitle.setTitle('Andromeda Casino Review 2024 - Is Andromeda a Safe Casino?');
+    this.metaTitle.setTitle('Andromeda Casino Review 2025 - Is Andromeda a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Andromeda Casino review. Sign up to claim your $5,000 welcome bonus from Andromeda Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Andromeda Casino Review' },

@@ -11,7 +11,7 @@ export class OldHavanaCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Old Havana Casino Review 2024 - Is Old Havana a Safe Casino?');
+    this.metaTitle.setTitle('Old Havana Casino Review 2025 - Is Old Havana a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Old Havane Casino review. Sign up to claim your 250% welcome bonus from Old Havana Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Old Havane Casino review' },

@@ -249,7 +249,7 @@ import { TwentyFourVipCasinoReviewComponent } from './reviews/twenty-four-vip-ca
 import { TwoUpCasinoReviewComponent } from './reviews/two-up-casino-review/two-up-casino-review.component';
 import { VegasCasinoOnlineReviewComponent } from './reviews/vegas-casino-online-review/vegas-casino-online-review.component';
 import { VegasCrestCasinoReviewComponent } from './reviews/vegas-crest-casino-review/vegas-crest-casino-review.component';
-import { WildCardCityCasinoReviewComponent } from './reviews/wild-card-city-casino-review/wild-card-city-casino-review.component';
+import { JokaCasinoReviewComponent } from './reviews/joka-casino-review/joka-city-casino-review.component';
 import { WildCasinoReviewComponent } from './reviews/wild-casino-review/wild-casino-review.component';
 import { WildCoinsCasinoReviewComponent } from './reviews/wild-coins-casino-review/wild-coins-casino-review.component';
 import { WildVegasCasinoReviewComponent } from './reviews/wild-vegas-casino-review/wild-vegas-casino-review.component';
@@ -276,7 +276,7 @@ const routes: Routes = [
   { path: 'ruby-slots-casino-review', component: RubySlotsCasinoReviewComponent,},
   { path: 'royal-ace-casino-review', component: RoyalAceCasinoReviewComponent,},
   { path: 'ace-lucky-casino-review',component: AceLuckyCasinoReviewComponent,},
-  { path: 'wild-card-city-casino-review', component: WildCardCityCasinoReviewComponent,},
+  { path: 'joka-casino-review', component: JokaCasinoReviewComponent,},
   { path: 'casino-cruise-casino-review', component: CasinoCruiseCasinoReviewComponent,},
   { path: 'el-royale-casino-review', component: ElRoyaleCasinoReviewComponent,},
   { path: 'casino-mate-casino-review', component: CasinoMateCasinoReviewComponent,},

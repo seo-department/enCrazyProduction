@@ -11,7 +11,7 @@ export class CasinoMateCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Casino-Mate – A Trusted Casino Review 2024');
+    this.metaTitle.setTitle('Casino-Mate – A Trusted Casino Review 2025');
     this.metaService.addTags([
       {name: 'description', content: 'Casino-Mate gives new players a $1,400 free welcome bonus, and 80 free spins. Read all about the casino bonuses, and games available at this top online casino.'},
       { name: 'keywords', content: 'Slot Madness Casino review' },

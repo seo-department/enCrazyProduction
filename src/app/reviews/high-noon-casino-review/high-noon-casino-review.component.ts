@@ -11,7 +11,7 @@ export class HighNoonCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Highnoon Casino Review 2024 - Is Highnoon a Safe Casino?');
+    this.metaTitle.setTitle('Highnoon Casino Review 2025 - Is Highnoon a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Highnoon Casino review. Sign up to claim your $2,500 welcome bonus from Highnoon Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Highnoon Casino review' },

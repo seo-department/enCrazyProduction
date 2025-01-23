@@ -11,7 +11,7 @@ export class SpinfinityCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Spinfinity Casino Review 2024 - Is Spinfinity a Safe Casino?');
+    this.metaTitle.setTitle('Spinfinity Casino Review 2025 - Is Spinfinity a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Spinfinity Casino review. Sign up to claim your $12,500 welcome bonus from Spinfinity Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Spinfinity Casino review' },

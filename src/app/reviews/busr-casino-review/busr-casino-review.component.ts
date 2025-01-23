@@ -11,7 +11,7 @@ export class BusrCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Honest BUSR Casino Review 2024 - Is BUSR a Safe Casino?');
+    this.metaTitle.setTitle('Honest BUSR Casino Review 2025 - Is BUSR a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest BUSR Casino review. Sign up to claim your $500 welcome bonus from BUSR Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'BUSR Casino review' },

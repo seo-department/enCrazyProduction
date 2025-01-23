@@ -11,7 +11,7 @@ export class VisaCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Visa Casinos 2024 - Casinos Accepting Visa Transactions');
+    this.metaTitle.setTitle('Best Visa Casinos 2025 - Casinos Accepting Visa Transactions');
     this.metaService.addTags([
       {name: 'description', content: 'VISA casinos. VISA cards are one of the most trusted casino banking methods for online payments. Find a list of casinosaccpeting VISA cards here.'},
       { name: 'keywords', content: 'Visa Casinos' },

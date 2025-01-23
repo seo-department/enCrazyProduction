@@ -11,7 +11,7 @@ export class BrangoCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Brango Casino Review 2024 - Is Brango a Safe Casino?');
+    this.metaTitle.setTitle('Brango Casino Review 2025 - Is Brango a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Brango Casino review. Sign up to claim your $2,000 welcome bonus from Brango Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Brango Casino review' },

@@ -12,7 +12,7 @@ export class AladdinsGoldCasinoReviewComponent implements OnInit {
 
   ngOnInit(): void {
 
-  this.metaTitle.setTitle("Aladdins Gold Casino Review 2024 - Is Aladdin's Gold a Safe Casino?");
+  this.metaTitle.setTitle("Aladdins Gold Casino Review 202 - Is Aladdin's Gold a Safe Casino?");
   this.metaService.addTags([
     {name: 'description', content: "Honest Aladdin's Gold Casino review. Sign up to claim your $2,000 welcome bonus from Aladdin's Gold Casino. Read our trusted casino review here."},
     { name: 'keywords', content: 'Aladdin’s Gold Casino review' },

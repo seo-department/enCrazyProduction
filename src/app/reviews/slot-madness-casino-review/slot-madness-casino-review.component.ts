@@ -11,7 +11,7 @@ export class SlotMadnessCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Slot Madness Casino Review 2024 - Is Slot Madness a Safe Casino?');
+    this.metaTitle.setTitle('Slot Madness Casino Review 2025 - Is Slot Madness a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Slot Madness Casino review. Sign up to claim your 300% welcome bonus from Slot Madness Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Slot Madness Casino Review' },

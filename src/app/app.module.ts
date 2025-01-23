@@ -24,7 +24,7 @@ import { PrismCasinoReviewComponent } from './reviews/prism-casino-review/prism-
 import { RubySlotsCasinoReviewComponent } from './reviews/ruby-slots-casino-review/ruby-slots-casino-review.component';
 import { RoyalAceCasinoReviewComponent } from './reviews/royal-ace-casino-review/royal-ace-casino-review.component';
 import { AceLuckyCasinoReviewComponent } from './reviews/ace-lucky-casino-review/ace-lucky-casino-review.component';
-import { WildCardCityCasinoReviewComponent } from './reviews/wild-card-city-casino-review/wild-card-city-casino-review.component';
+import { JokaCasinoReviewComponent } from './reviews/joka-casino-review/joka-casino-review.component';
 import { CasinoCruiseCasinoReviewComponent } from './reviews/casino-cruise-casino-review/casino-cruise-casino-review.component';
 import { ElRoyaleCasinoReviewComponent } from './reviews/el-royale-casino-review/el-royale-casino-review.component';
 import { CasinoMateCasinoReviewComponent } from './reviews/casino-mate-casino-review/casino-mate-casino-review.component';

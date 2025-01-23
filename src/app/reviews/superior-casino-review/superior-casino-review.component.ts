@@ -11,7 +11,7 @@ export class SuperiorCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Honest Superior Casino Review 2024 – Is Superior Casino Safe?');
+    this.metaTitle.setTitle('Honest Superior Casino Review 2025 – Is Superior Casino Safe?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Superior Casino review. Sign up to claim your $7,500 welcome bonus from Superior Casino. Read our honest casino review here.'},
       { name: 'keywords', content: 'Superior Casino Review' },

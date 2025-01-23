@@ -11,7 +11,7 @@ export class BuzzluckCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Online United States Casino - Top USA Online Casinos 2024');
+    this.metaTitle.setTitle('Best Online United States Casino - Top USA Online Casinos 2025');
     this.metaService.addTags([
       {name: 'description', content: 'Looking for expert guides to USA online casinos? Buzzluck Casino finds honest to play online casino games and win real money.'},
       { name: 'keywords', content: 'Buzzluck Casino Review' },

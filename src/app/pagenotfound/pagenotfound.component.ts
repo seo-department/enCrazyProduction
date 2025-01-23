@@ -29,7 +29,7 @@ export class PagenotfoundComponent implements OnInit {
 
     this.metaTitle.setTitle('Page not found - en.crazyvegas.com');
     this.metaService.addTags([
-      {name: 'description', content: 'Best Online Casinos USA (2024)  Compare Top USA Casino Sites.'},
+      {name: 'description', content: 'Best Online Casinos USA (2025)  Compare Top USA Casino Sites.'},
       { name: 'keywords', content: 'Page not found' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },

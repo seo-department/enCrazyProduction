@@ -11,7 +11,7 @@ export class TrueFortuneCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('True Fortune Casino Review 2024 - Is True Fortune a Safe Casino?');
+    this.metaTitle.setTitle('True Fortune Casino Review 2025 - Is True Fortune a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest True Fortune Casino review. Sign up to claim your $2,000 welcome bonus from True Fortune Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'True Fortune Casino review' },

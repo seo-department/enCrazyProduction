@@ -11,7 +11,7 @@ export class RagingBullCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Raging Bull Review 2024 - Is Raging Bull a Safe Casino?');
+    this.metaTitle.setTitle('Raging Bull Review 2025 - Is Raging Bull a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Raging Bull Casino review. Sign up to claim your $2500 welcome bonus from Raging Bull Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Raging Bull Casino review' },

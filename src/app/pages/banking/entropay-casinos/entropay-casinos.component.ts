@@ -11,7 +11,7 @@ export class EntropayCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best EntroPay Casinos 2024 - Casinos Accepting EntroPay Payments');
+    this.metaTitle.setTitle('Best EntroPay Casinos 2025 - Casinos Accepting EntroPay Payments');
     this.metaService.addTags([
       {name: 'description', content: 'EntroPay casinos. List of casinos that accept EntroPay deposit method. EntroPay is a debit card allowing players to make safe real money casino deposits.'},
       { name: 'keywords', content: 'EntroPay casinos' },

@@ -11,7 +11,7 @@ export class SlotyCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Sloty Casino Review 2024 - Is Sloty a Safe Casino?');
+    this.metaTitle.setTitle('Sloty Casino Review 2025 - Is Sloty a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Sloty Casino review. Sign up to claim your $300 welcome bonus from Sloty Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Sloty Casino review' },

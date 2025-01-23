@@ -11,7 +11,7 @@ export class BetusCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('BetUs Casino Review 2024 - Is BetUs a Safe Casino?');
+    this.metaTitle.setTitle('BetUs Casino Review 2025 - Is BetUs a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest BetUs Casino review. Sign up to claim your $5,375 welcome bonus from BetUs Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'BetUS Casino review' },

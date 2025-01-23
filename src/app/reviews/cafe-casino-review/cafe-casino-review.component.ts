@@ -11,7 +11,7 @@ export class CafeCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Café Casino Review 2024 – Is Café Casino a Safe Casino?');
+    this.metaTitle.setTitle('Café Casino Review 2025 – Is Café Casino a Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Trusted Café Casino review. Sign up to claim your $2,500 welcome bonus from Café Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Café Casino review' },

@@ -11,7 +11,7 @@ export class BodogCasinoReviewComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Trusted Bodog Casino Review 2024 - Is Bodog Safe Casino?');
+    this.metaTitle.setTitle('Trusted Bodog Casino Review 2025 - Is Bodog Safe Casino?');
     this.metaService.addTags([
       {name: 'description', content: 'Honest Bodog Casino review. Sign up to claim your $600 welcome bonus from Bodog Casino. Read our trusted casino review here.'},
       { name: 'keywords', content: 'Bodog Casino review' },

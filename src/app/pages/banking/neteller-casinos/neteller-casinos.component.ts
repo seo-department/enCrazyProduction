@@ -11,7 +11,7 @@ export class NetellerCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best Neteller Casinos 2024 - Casinos Accepting Neteller');
+    this.metaTitle.setTitle('Best Neteller Casinos 2025 - Casinos Accepting Neteller');
     this.metaService.addTags([
       {name: 'description', content: 'Neteller deposit & withdraw banking method is one of the most popular options among online players. Find reviews and ratings of the top Neteller casinos.'},
       { name: 'keywords', content: 'Neteller Casinos' },

@@ -11,7 +11,7 @@ export class UsemybankCasinosComponent implements OnInit {
   constructor(private metaService: Meta, private metaTitle: Title) { }
 
   ngOnInit(): void {
-    this.metaTitle.setTitle('Best UseMyBank Casinos 2024 - Casinos Accepting UseMyBank');
+    this.metaTitle.setTitle('Best UseMyBank Casinos 2025 - Casinos Accepting UseMyBank');
     this.metaService.addTags([
       {name: 'description', content: 'UseMyBank Casino Guide. Find casinos accepting the UseMyBank deposit option and how to use it with this Crazy Vegas guide.'},
       { name: 'keywords', content: 'UseMyBank Casino' },
