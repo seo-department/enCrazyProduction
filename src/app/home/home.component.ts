@@ -51,7 +51,7 @@ roulette_casinos="https://imgix.cosmicjs.com/aa054240-0208-11ef-9e48-85dc2e02a5a
   ngOnInit(): void {
     this.metaTitle.setTitle('Best USA Online Casinos - Top Real Money Online Casino Sites 2025');
     this.metaService.addTags([
-      {name: 'description', content: 'Play at the best online casinos USA. Crazy Vegas Casino finds honest gambling sites accepting US players. Claim bonuses up to $10,000 and play games.'},
+      {name: 'description', content: 'Play at the best online casinos USA. Crazy Vegas Casino lists all new USA online casinos in one place. Claim bonuses up to $10,000 and play games.'},
       { name: 'keywords', content: 'Online Casinos' },
       { name: 'robots', content: 'Index,follow' },
       { charset: 'UTF-8' },
