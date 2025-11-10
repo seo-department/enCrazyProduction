@@ -193,12 +193,13 @@ export class AppComponent {
     if (location.pathname =='/online-blackjack/online-blackjack-tips/the-three-most-fatal-blackjack-strategies.asp'){
       window.location.href = "/online-blackjack/blackjack-tips";
     }
+    if (location.pathname =='/play/reels-of-joy'){
+      window.location.href = "https://record.rivierarewards.com/_QaB3lX_K2H23_O3IiMN7EWNd7ZgqdRLk/20/";
+    }
     if (location.pathname =='/fr/contact-us'){
       window.location.href = "/contact-us";
     }
 
-
-  
     
    
   }
